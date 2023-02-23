@@ -6,8 +6,8 @@
     "strict": true,
     "types": [
       "./temp/declarations/cc.custom-macro",
-      "./temp/declarations/cc",
       "./temp/declarations/jsb",
+      "./temp/declarations/cc",
       "./temp/declarations/cc.env"
     ],
     "paths": {
@@ -15,7 +15,7 @@
         "/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine/editor/assets/*"
       ],
       "db://assets/*": [
-        "/Users/super_javan/cocoscreator/LittleBeastFight/assets/*"
+        "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/*"
       ]
     },
     "experimentalDecorators": true,

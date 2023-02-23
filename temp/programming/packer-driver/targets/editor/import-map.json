@@ -1,8 +1,9 @@
 {
   "imports": {
     "cce:/internal/x/cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js",
-    "cce:/internal/x/prerequisite-imports": "./chunks/48/48925ed89f58b0eff72f0ddf69b47c4b5e8f623a.js",
-    "file:///Users/super_javan/cocoscreator/LittleBeastFight/assets/Script/Base/ResMgr.ts": "./chunks/c8/c8bf4c0299a7fad92233eb56d08bda1c8c6b8963.js"
+    "cce:/internal/x/prerequisite-imports": "./chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js",
+    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts": "./chunks/05/05e53ed6129b8ca0604af054a075886c725eb3e6.js",
+    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts": "./chunks/68/68ab6b9b417ce92c4caa32484676844b96bedcc2.js"
   },
   "scopes": {
     "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js": {
@@ -32,10 +33,16 @@
       "__unresolved_8": "cce:/internal/x/cc-fu/particle",
       "__unresolved_9": "cce:/internal/x/cc-fu/particle-2d"
     },
-    "./chunks/48/48925ed89f58b0eff72f0ddf69b47c4b5e8f623a.js": {
-      "__unresolved_0": "./chunks/c8/c8bf4c0299a7fad92233eb56d08bda1c8c6b8963.js"
+    "./chunks/63/6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3.js": {
+      "__unresolved_0": "./chunks/05/05e53ed6129b8ca0604af054a075886c725eb3e6.js",
+      "__unresolved_1": "./chunks/68/68ab6b9b417ce92c4caa32484676844b96bedcc2.js"
     },
-    "./chunks/c8/c8bf4c0299a7fad92233eb56d08bda1c8c6b8963.js": {
+    "./chunks/68/68ab6b9b417ce92c4caa32484676844b96bedcc2.js": {
+      "cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js"
+    },
+    "./chunks/05/05e53ed6129b8ca0604af054a075886c725eb3e6.js": {
+      "__unresolved_0": "./chunks/84/84741ad843cea9a440c5d8c2d379669b6551400d.js",
+      "__unresolved_1": "./chunks/68/68ab6b9b417ce92c4caa32484676844b96bedcc2.js",
       "cc": "./chunks/ca/ca4374a3008ca85000d465787e739a302e4e4ac6.js"
     }
   }

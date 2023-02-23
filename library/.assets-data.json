@@ -427,5 +427,13 @@
   "65d8654a-06f8-4255-ad16-00b1a8df503b": {
     "url": "db://assets/Script/Base/ResMgr.ts",
     "value": {}
+  },
+  "e8a2af0d-0820-46cd-ad3b-05595ae2e9f8": {
+    "url": "db://assets/Script/Utils",
+    "value": {}
+  },
+  "0f154a25-bdbc-4627-b510-2868b96e350e": {
+    "url": "db://assets/Script/Utils/Utils.ts",
+    "value": {}
   }
 }
