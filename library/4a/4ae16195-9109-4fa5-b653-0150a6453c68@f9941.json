@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "loading_progress_bar",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 29,
+      "height": 20
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 29,
+      "height": 20
+    },
+    "rotated": false,
+    "capInsets": [
+      9,
+      8,
+      8,
+      8
+    ],
+    "vertices": {
+      "rawPosition": [
+        -14.5,
+        -10,
+        0,
+        14.5,
+        -10,
+        0,
+        -14.5,
+        10,
+        0,
+        14.5,
+        10,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        20,
+        29,
+        20,
+        0,
+        0,
+        29,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -14.5,
+        "y": -10,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 14.5,
+        "y": 10,
+        "z": 0
+      }
+    },
+    "texture": "4ae16195-9109-4fa5-b653-0150a6453c68@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}
