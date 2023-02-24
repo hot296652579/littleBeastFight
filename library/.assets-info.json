@@ -247,7 +247,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script": {
-    "time": 1677151701313.1426,
+    "time": 1677159598694.627,
     "uuid": "cf5cbd84-fb5e-455e-b02b-6d7426435b27",
     "missing": false
   },
@@ -282,7 +282,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils": {
-    "time": 1677151701313.5125,
+    "time": 1677159598695.6157,
     "uuid": "e8a2af0d-0820-46cd-ad3b-05595ae2e9f8",
     "missing": false
   },
@@ -478,5 +478,77 @@
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Texture/bg.png.meta": {
     "time": 1677142003025.4841
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config.meta": {
+    "time": 1677159598697.9543
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame.meta": {
+    "time": 1677159598698.0603
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.meta": {
+    "time": 1677159598701.7107
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts.meta": {
+    "time": 1677159598702.2554
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts.meta": {
+    "time": 1677159598702.3843
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.meta": {
+    "time": 1677159598705.8071
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.meta": {
+    "time": 1677159598706.0989
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.meta": {
+    "time": 1677159598706.6516
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.meta": {
+    "time": 1677159598706.7764
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config": {
+    "time": 1677159598694.757,
+    "uuid": "5b80b696-37fe-427d-9c3f-a18e4253a392",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame": {
+    "time": 1677159598695.4258,
+    "uuid": "f264a677-7408-4946-b9f4-bd9baab6b48f",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts": {
+    "time": 1677152682480.8064,
+    "uuid": "387e99f6-734c-4cae-88c7-1326b191711a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts": {
+    "time": 1677157296182.9155,
+    "uuid": "96166194-0285-4463-8de1-6001bceeac3e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts": {
+    "time": 1677157315788.2583,
+    "uuid": "a109e7dd-8af6-4b02-94d4-6f39ab1a42b0",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts": {
+    "time": 1677154444369.8687,
+    "uuid": "85003a67-c306-44f5-8eee-51bcd7a2523a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts": {
+    "time": 1677153081847.016,
+    "uuid": "ce77fe6a-daa8-40a3-bcbc-b91a7278cc27",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts": {
+    "time": 1677154873581.714,
+    "uuid": "0b5f6438-9416-4a2f-a161-6ad303d96bbf",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts": {
+    "time": 1677154855466.9019,
+    "uuid": "833cbc51-2be6-409d-818d-778ea4baaf4e",
+    "missing": false
   }
 }

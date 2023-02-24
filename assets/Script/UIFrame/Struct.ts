@@ -16,7 +16,3 @@ export class ModalType {
         this.easingTime = easingTime;
     }
 }
-
-export interface IFormData {
-    onClose?: Function;
-}

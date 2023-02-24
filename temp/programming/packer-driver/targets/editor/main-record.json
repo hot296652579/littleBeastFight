@@ -535,8 +535,8 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 5258.535916998982,
-      "chunkId": "6324fd7f2a6a90bef45040fcb7ce34af0ba6a7d3",
+      "mTimestamp": 7901181.581499994,
+      "chunkId": "7445ff4758084772bd924d4fde9f2179dae8a9aa",
       "imports": [
         {
           "value": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts",
@@ -553,7 +553,7 @@
           }
         },
         {
-          "value": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts",
+          "value": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts",
           "resolved": "__unresolved_1",
           "loc": {
             "start": {
@@ -562,7 +562,105 @@
             },
             "end": {
               "line": 5,
-              "column": 229
+              "column": 234
+            }
+          }
+        },
+        {
+          "value": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 250
+            },
+            "end": {
+              "line": 5,
+              "column": 342
+            }
+          }
+        },
+        {
+          "value": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 358
+            },
+            "end": {
+              "line": 5,
+              "column": 450
+            }
+          }
+        },
+        {
+          "value": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 466
+            },
+            "end": {
+              "line": 5,
+              "column": 558
+            }
+          }
+        },
+        {
+          "value": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 574
+            },
+            "end": {
+              "line": 5,
+              "column": 665
+            }
+          }
+        },
+        {
+          "value": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts",
+          "resolved": "__unresolved_6",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 681
+            },
+            "end": {
+              "line": 5,
+              "column": 778
+            }
+          }
+        },
+        {
+          "value": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts",
+          "resolved": "__unresolved_7",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 794
+            },
+            "end": {
+              "line": 5,
+              "column": 891
+            }
+          }
+        },
+        {
+          "value": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts",
+          "resolved": "__unresolved_8",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 907
+            },
+            "end": {
+              "line": 5,
+              "column": 996
             }
           }
         }
@@ -573,6 +671,55 @@
           "resolved": {
             "type": "module",
             "url": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts"
           },
           "messages": []
         },
@@ -745,6 +892,531 @@
           "resolved": {
             "type": "module",
             "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts": {
+      "mTimestamp": {
+        "mtime": 1677152682480.8064,
+        "uuid": "387e99f6-734c-4cae-88c7-1326b191711a"
+      },
+      "chunkId": "817220591d86bf88b476950f9f4d95674a81ef5e",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts": {
+      "mTimestamp": {
+        "mtime": 1677157296182.9155,
+        "uuid": "96166194-0285-4463-8de1-6001bceeac3e"
+      },
+      "chunkId": "e2b546c721f7ce5f1945775a6f7c300283ffd7ca",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../Config/SysDefine",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 29
+            },
+            "end": {
+              "line": 1,
+              "column": 50
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts": {
+      "mTimestamp": {
+        "mtime": 1677157315788.2583,
+        "uuid": "a109e7dd-8af6-4b02-94d4-6f39ab1a42b0"
+      },
+      "chunkId": "19dd43ee8ef86762b383020c9f908fb7c6ff5bb4",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 38
+            },
+            "end": {
+              "line": 1,
+              "column": 42
+            }
+          }
+        },
+        {
+          "value": "../Config/SysDefine",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 25
+            },
+            "end": {
+              "line": 2,
+              "column": 46
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts": {
+      "mTimestamp": {
+        "mtime": 1677154444369.8687,
+        "uuid": "85003a67-c306-44f5-8eee-51bcd7a2523a"
+      },
+      "chunkId": "af7ef95b45ac8e62e2d225261d48142fe1c493ed",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "cc",
+          "loc": {
+            "start": {
+              "line": 2,
+              "column": 35
+            },
+            "end": {
+              "line": 2,
+              "column": 39
+            }
+          }
+        },
+        {
+          "value": "../Config/SysDefine",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 25
+            },
+            "end": {
+              "line": 3,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "./Struct",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 4,
+              "column": 26
+            },
+            "end": {
+              "line": 4,
+              "column": 36
+            }
+          }
+        },
+        {
+          "value": "./UIBase",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 5,
+              "column": 23
+            },
+            "end": {
+              "line": 5,
+              "column": 33
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts": {
+      "mTimestamp": {
+        "mtime": 1677153081847.016,
+        "uuid": "ce77fe6a-daa8-40a3-bcbc-b91a7278cc27"
+      },
+      "chunkId": "1bf108b6ad83349fed2b032bc0dcd081ab97057b",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "../BaseManager/ResMgr",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 9,
+              "column": 23
+            },
+            "end": {
+              "line": 9,
+              "column": 46
+            }
+          }
+        },
+        {
+          "value": "../utils/PriorityStack",
+          "resolved": "__unresolved_2",
+          "loc": {
+            "start": {
+              "line": 10,
+              "column": 30
+            },
+            "end": {
+              "line": 10,
+              "column": 54
+            }
+          }
+        },
+        {
+          "value": "./config/SysDefine",
+          "resolved": "__unresolved_3",
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 39
+            },
+            "end": {
+              "line": 11,
+              "column": 59
+            }
+          }
+        },
+        {
+          "value": "./ModalMgr",
+          "resolved": "__unresolved_4",
+          "loc": {
+            "start": {
+              "line": 12,
+              "column": 25
+            },
+            "end": {
+              "line": 12,
+              "column": 37
+            }
+          }
+        },
+        {
+          "value": "./UIForm",
+          "resolved": "__unresolved_5",
+          "loc": {
+            "start": {
+              "line": 14,
+              "column": 44
+            },
+            "end": {
+              "line": 14,
+              "column": 54
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts 为起点找不到模块 \"../BaseManager/ResMgr\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts 为起点找不到模块 \"../utils/PriorityStack\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts 为起点找不到模块 \"./config/SysDefine\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts 为起点找不到模块 \"./ModalMgr\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
+        },
+        {
+          "resolved": {
+            "type": "error",
+            "text": "Error: 以 file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts 为起点找不到模块 \"./UIForm\""
+          },
+          "messages": [
+            {
+              "level": "warn",
+              "text": "你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。"
+            }
+          ]
+        }
+      ]
+    },
+    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts": {
+      "mTimestamp": {
+        "mtime": 1677154873581.714,
+        "uuid": "0b5f6438-9416-4a2f-a161-6ad303d96bbf"
+      },
+      "chunkId": "e9b6dc828edeafdc3a4fc316a8bc821e7a22442e",
+      "imports": [
+        {
+          "value": "cc"
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        }
+      ]
+    },
+    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts": {
+      "mTimestamp": {
+        "mtime": 1677154855466.9019,
+        "uuid": "833cbc51-2be6-409d-818d-778ea4baaf4e"
+      },
+      "chunkId": "fd0b9efb743209587625f7e0d645911803b7b0ee",
+      "imports": [
+        {
+          "value": "cce:/internal/code-quality/cr.mjs",
+          "resolved": "__unresolved_0"
+        },
+        {
+          "value": "cc"
+        },
+        {
+          "value": "./PriorityQueue",
+          "resolved": "__unresolved_1",
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 32
+            },
+            "end": {
+              "line": 1,
+              "column": 49
+            }
+          }
+        }
+      ],
+      "type": "esm",
+      "resolutions": [
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/code-quality/cr.mjs"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "cce:/internal/x/cc"
+          },
+          "messages": []
+        },
+        {
+          "resolved": {
+            "type": "module",
+            "url": "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts"
           },
           "messages": []
         }

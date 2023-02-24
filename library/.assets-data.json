@@ -435,5 +435,41 @@
   "0f154a25-bdbc-4627-b510-2868b96e350e": {
     "url": "db://assets/Script/Utils/Utils.ts",
     "value": {}
+  },
+  "5b80b696-37fe-427d-9c3f-a18e4253a392": {
+    "url": "db://assets/Script/Config",
+    "value": {}
+  },
+  "f264a677-7408-4946-b9f4-bd9baab6b48f": {
+    "url": "db://assets/Script/UIFrame",
+    "value": {}
+  },
+  "387e99f6-734c-4cae-88c7-1326b191711a": {
+    "url": "db://assets/Script/Config/SysDefine.ts",
+    "value": {}
+  },
+  "96166194-0285-4463-8de1-6001bceeac3e": {
+    "url": "db://assets/Script/UIFrame/Struct.ts",
+    "value": {}
+  },
+  "a109e7dd-8af6-4b02-94d4-6f39ab1a42b0": {
+    "url": "db://assets/Script/UIFrame/UIBase.ts",
+    "value": {}
+  },
+  "85003a67-c306-44f5-8eee-51bcd7a2523a": {
+    "url": "db://assets/Script/UIFrame/UIFrom.ts",
+    "value": {}
+  },
+  "ce77fe6a-daa8-40a3-bcbc-b91a7278cc27": {
+    "url": "db://assets/Script/UIFrame/UIMgr.ts",
+    "value": {}
+  },
+  "0b5f6438-9416-4a2f-a161-6ad303d96bbf": {
+    "url": "db://assets/Script/Utils/PriorityQueue.ts",
+    "value": {}
+  },
+  "833cbc51-2be6-409d-818d-778ea4baaf4e": {
+    "url": "db://assets/Script/Utils/PriorityStake.ts",
+    "value": {}
   }
 }

@@ -1,14 +1,11 @@
 import { Component, _decorator } from 'cc';
 import { FormType } from '../Config/SysDefine';
-import { IFormData } from './Struct';
 const { ccclass, property } = _decorator;
 
 
 export class UIBase extends Component {
     //窗体id 该窗体的唯一标识，请不要对这个值复制
     public fid!: string;
-
-    public formData!: IFormData;
 
     public formType: FormType = FormType.FormType_Screen;
 

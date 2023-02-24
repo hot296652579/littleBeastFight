@@ -341,3 +341,40 @@ myProp = 0;
 2023-02-23T11:28:26.294Z - log: [Scene] Cocos Creator v3.6.0
 2023-02-23T11:28:26.294Z - info: [Scene] Forward render pipeline initialized.
 2023-02-23T11:28:27.055Z - log: [Im-plugin] No online info of im-plugin.
+2023-02-23T13:39:59.162Z - warn: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。Error: [Scene] 你是否遗漏了扩展名？请注意你不能在模块说明符中省略扩展名。
+    at logger (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:755:13)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:772:17)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+2023-02-23T13:39:59.181Z - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts 为起点找不到模块 "../BaseManager/ResMgr"
+    at rejector (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:759:15)
+    at ExecutorSystem.resolve [as _detailResolve] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:777:13)
+    at ExecutorSystem._resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:120:14)
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/littleBeastFight3.6/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/littleBeastFight3.6/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} Error: Error: 以 file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts 为起点找不到模块 "../BaseManager/ResMgr"
+    at SystemJS.resolve (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/editor-systemjs/index.ts:36:23)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:355:37
+    at Array.map (<anonymous>)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:353:41
+    at file:///Users/super_javan/cocoscreator/littleBeastFight3.6/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/littleBeastFight3.6/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)
+    at Logger._logHandler (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
+    at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5825)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3509)
+    at Executor._onModuleLoaded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:312:22)
+    at SystemJS.onload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:73:18)
+    at triggerOnload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:431:7
+    at file:///Users/super_javan/cocoscreator/littleBeastFight3.6/temp/programming/packer-driver/targets/editor/chunks/74/cce:/internal/x/prerequisite-imports:8:13
+2023-02-23T14:04:43.354Z - warn: Metrics: no valid info
