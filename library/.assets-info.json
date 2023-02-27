@@ -242,7 +242,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby": {
-    "time": 1677137844052.7703,
+    "time": 1677488160757.2627,
     "uuid": "2de1317a-3741-42aa-a015-d93305c07d48",
     "missing": false
   },
@@ -287,7 +287,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts": {
-    "time": 1677151288670.9512,
+    "time": 1677476753240.0151,
     "uuid": "65d8654a-06f8-4255-ad16-00b1a8df503b",
     "missing": false
   },
@@ -303,7 +303,7 @@
     "time": 1677135272932.978
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby.meta": {
-    "time": 1677142326539.5935
+    "time": 1677488179706.195
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script.meta": {
     "time": 1677135170915.9346
@@ -346,7 +346,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Launch.scene": {
-    "time": 1677142107970.4465,
+    "time": 1677488178606.7725,
     "uuid": "09394949-7567-49fa-b91c-1056952fb20d",
     "missing": false
   },
@@ -537,7 +537,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts": {
-    "time": 1677475050818.0154,
+    "time": 1677477464695.3203,
     "uuid": "ce77fe6a-daa8-40a3-bcbc-b91a7278cc27",
     "missing": false
   },
@@ -555,8 +555,16 @@
     "time": 1677475073138.5166
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts": {
-    "time": 1677474131103.8848,
+    "time": 1677477449602.888,
     "uuid": "8f367993-c942-4247-ac20-115ccf99a845",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/relist.ts.meta": {
+    "time": 1677488160759.1504
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/relist.ts": {
+    "time": 1677488141816.974,
+    "uuid": "aa015390-6ef9-40dd-bed5-81d3db4da66c",
     "missing": false
   }
 }

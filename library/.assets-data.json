@@ -475,5 +475,9 @@
   "8f367993-c942-4247-ac20-115ccf99a845": {
     "url": "db://assets/Script/UIFrame/ModalMgr.ts",
     "value": {}
+  },
+  "aa015390-6ef9-40dd-bed5-81d3db4da66c": {
+    "url": "db://assets/Lobby/relist.ts",
+    "value": {}
   }
 }
