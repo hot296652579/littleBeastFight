@@ -354,7 +354,7 @@ export class UIManager {
                 //消失要有消失动画
                 Tween.stopAllByTarget(maskNode);
                 let opacity = maskNode.getComponent(UIOpacity).opacity
-                tween(opacity)
+                tween<UIOpacity>(maskNode.getComponent(UIOpacity))
                     .to(t, { opacity: 0 }, { easing: 'linear' })
                     // 当前面的动作都执行完毕后才会调用这个回调函数
                     .call(() => {

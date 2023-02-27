@@ -77,11 +77,11 @@ export class ModalMgr {
                             Tween.stopAllByTarget(maskArr[maskKey]);
                             let t = tcom.getShowEffectTime();
 
-                            tween(opac)
+                            tween<UIOpacity>(maskArr[maskKey].getComponent(UIOpacity))
                                 .to(t, { opacity: opac }, { easing: 'linear' })
                                 // 当前面的动作都执行完毕后才会调用这个回调函数
                                 .call(() => {
-                                    if (tcom!.modalType.clickMaskClose) {
+                                    if (tcom!.modalType?.clickMaskClose) {
                                         maskArr[maskKey].off(Node.EventType.TOUCH_START);
                                         maskArr[maskKey].on(Node.EventType.TOUCH_START, () => {
                                             UIManager.getInstance().closeForm(tcom!.fid);

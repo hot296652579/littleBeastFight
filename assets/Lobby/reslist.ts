@@ -1,6 +1,7 @@
 /*generator by gen reslit tools do not edit it!*/
 export let reslist:Map<string,number> = new Map<string,number>([
 ["Lobby/Prefabs/UILobby",4],
+["Lobby/Prefabs/UIMask",4],
 ["Lobby/Prefabs/UIWait",4],
 ["Lobby/Texture/Background_BP_button_season3",1],
 ["Lobby/Texture/Background_BP_button_season9",1],

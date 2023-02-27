@@ -136,7 +136,13 @@
     "value": {
       "depends": [
         "458490e2-1ae7-45dc-9238-a9917323ac1d",
-        "a618db4b-0de9-461d-a429-fc1fcf9e4736",
+        "ecdc640d-936e-449b-b0b0-2664ca4a4353@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
+        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
         "458490e2-1ae7-45dc-9238-a9917323ac1d"
       ]
     }
@@ -627,5 +633,13 @@
   "0aeaa551-b8a8-454b-9cbd-f1d7ed07aa62": {
     "url": "db://assets/Battle/Script/UIBattle.ts",
     "value": {}
+  },
+  "a28379fc-d1b1-41f3-ab8f-441794e64f66": {
+    "url": "db://assets/Lobby/Prefabs/UIMask.prefab",
+    "value": {
+      "depends": [
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
+      ]
+    }
   }
 }
