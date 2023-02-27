@@ -15,7 +15,8 @@ var fs = require('fs');
 var path = require('path');
 
 var bundleList = [
-    "Lobby",                //大厅
+    "Lobby",
+    'Battle'               //大厅
 ];
 
 

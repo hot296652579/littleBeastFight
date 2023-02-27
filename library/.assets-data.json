@@ -479,5 +479,17 @@
   "aa015390-6ef9-40dd-bed5-81d3db4da66c": {
     "url": "db://assets/Lobby/relist.ts",
     "value": {}
+  },
+  "ac2d600d-925e-46a4-a71c-62a09d3af34c": {
+    "url": "db://assets/Battle/reslist.ts",
+    "value": {}
+  },
+  "94930608-60eb-4644-98d7-8a1f0ada6be1": {
+    "url": "db://assets/Launch/Lauch.ts",
+    "value": {}
+  },
+  "2fc472cd-e933-48df-807e-f2a1ac489df6": {
+    "url": "db://assets/Lobby/reslist.ts",
+    "value": {}
   }
 }

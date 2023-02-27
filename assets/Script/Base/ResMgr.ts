@@ -55,6 +55,28 @@ export class ResMgr {
     private loadProgress: { [key: string]: number } = js.createMap();
 
     /**
+     * @description: 仅仅加载bunle。主要用途为：子游戏在进入之前，要先加载bundle，然后才能执行对应的逻辑
+    大厅字游戏必须保证 大厅对子游戏没有资源和代码引用。
+    子游戏可以引用大厅的逻辑代码和资源
+    */
+    public preloadBundleOnly(bundleName: string): Promise<boolean> {
+        return new Promise<boolean>((resolve, reject) => {
+            if (this.subGameBundle.has(bundleName)) {
+                resolve(true);
+                return;
+            }
+            assetManager.loadBundle(bundleName, (err, bundle: AssetManager.Bundle) => {
+                if (err != null) {
+                    resolve(false);
+                    return;
+                }
+                this.subGameBundle.set(bundleName, bundle);
+                resolve(true);
+            });
+        });
+    }
+
+    /**
      * @description: 加载list里面对应的每个文件(预设,spriteFrame,图集,音频等)
      * @param {Map} list
      * @param {*} number
