@@ -4,12 +4,31 @@ import { FormType } from "../Config/SysDefine";
 import { ModalType } from "./Struct";
 import { UIBase } from "./UIBase";
 
+export class UILoading extends UIBase {
+    formType = FormType.FormType_Loading;
+
+    public async showEffect(): Promise<boolean> {
+        return true;
+    }
+
+    public async hideEffect(): Promise<boolean> {
+        return true;
+    }
+
+    public onShow(...params: any): void {
+        super.onShow(...params);
+    }
+
+    public onHide(): void {
+        super.onHide();
+    }
+}
+
 export class UIScreen extends UIBase {
     formType = FormType.FormType_Screen;
     willDestory = true;
     //是否独占。如果UIScreen设置该属性，则打开该窗体，其他screen都会被关闭，否则不关闭
     public isEngross: boolean = false;
-    public is3d: boolean = false;
     public params: any;
 
     public isOnleyEngross: boolean = false;

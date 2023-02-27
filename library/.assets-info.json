@@ -512,7 +512,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame": {
-    "time": 1677159598695.4258,
+    "time": 1677475073136.0132,
     "uuid": "f264a677-7408-4946-b9f4-bd9baab6b48f",
     "missing": false
   },
@@ -527,17 +527,17 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts": {
-    "time": 1677157315788.2583,
+    "time": 1677473582459.6443,
     "uuid": "a109e7dd-8af6-4b02-94d4-6f39ab1a42b0",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts": {
-    "time": 1677154444369.8687,
+    "time": 1677473569188.2585,
     "uuid": "85003a67-c306-44f5-8eee-51bcd7a2523a",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts": {
-    "time": 1677153081847.016,
+    "time": 1677475050818.0154,
     "uuid": "ce77fe6a-daa8-40a3-bcbc-b91a7278cc27",
     "missing": false
   },
@@ -549,6 +549,14 @@
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts": {
     "time": 1677154855466.9019,
     "uuid": "833cbc51-2be6-409d-818d-778ea4baaf4e",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts.meta": {
+    "time": 1677475073138.5166
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts": {
+    "time": 1677474131103.8848,
+    "uuid": "8f367993-c942-4247-ac20-115ccf99a845",
     "missing": false
   }
 }

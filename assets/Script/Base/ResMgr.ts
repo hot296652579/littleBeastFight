@@ -1,5 +1,5 @@
 /**资源加载管理器 */
-import { _decorator, Component, Node, js, Prefab, SpriteFrame, SpriteAtlas, AudioClip, sp, AssetManager, assetManager } from 'cc';
+import { _decorator, Component, Node, js, Prefab, SpriteFrame, SpriteAtlas, AudioClip, sp, AssetManager, assetManager, error } from 'cc';
 import { splitFormName } from '../Utils/Utils';
 const { ccclass, property } = _decorator;
 
@@ -563,5 +563,71 @@ export class ResMgr {
         }
     }
 
+    /**
+     * 1:优先判定常驻窗体中有没有节点
+     * 需要先判定对应的bundle是否加载了
+     * 切割formName为 bundleName prefabName
+     * todo dev 这里以后配置成远程包的时候还需要处理为 远程资源的加载
+     * @param formName 
+     */
+    public async loadForm(formName: string): Promise<Prefab | null> {
+        return new Promise((resolve, reject) => {
+
+            if (!formName || formName.length <= 0) {
+                resolve(null);
+            }
+            let data = splitFormName(formName);
+            let bundleName = data.bundle;
+            let prefabName = data.prefabName;
+
+            //如果缓存中有 则直接从缓存中获取，一般情况就是到这里就返回了。因为进入 字游戏或者大厅的时候就会预加载的
+            if (this.loadPrefabWithBundleKey.has(bundleName) && this.loadPrefabWithBundleKey.get(bundleName)!.has(formName)) {
+                resolve(this.loadPrefabWithBundleKey.get(bundleName)!.get(formName)!)
+                return;
+            }
+
+            assetManager.loadBundle(bundleName, (err, bundle: AssetManager.Bundle) => {
+                if (err != null) {
+                    error(`${bundleName}加载失败`);
+                    resolve(null);
+                    return;
+                }
+                this.subGameBundle.set(bundleName, bundle);
+                if (!this.loadPrefabWithBundleKey.has(bundleName)) {
+                    this.loadPrefabWithBundleKey.set(bundleName, new Map<string, Prefab>());
+                }
+                bundle.load<Prefab>(prefabName, (err, prefab: Prefab) => {
+                    if (err != null) {
+                        error(`${prefabName}加载失败`);
+                        resolve(null);
+                        return;
+                    }
+                    //每加载一次prefab就保存一下。
+                    //this.prefabs[formName] = prefab;
+                    if (!this.loadPrefabWithBundleKey.has(bundleName)) {
+                        this.loadPrefabWithBundleKey.set(bundleName, new Map<string, Prefab>());
+                    }
+                    this.loadPrefabWithBundleKey.get(bundleName)?.set(formName, prefab);
+                    prefab.addRef();
+                    resolve(prefab);
+                });
+            });
+        });
+    }
+
+    //销毁一个form对应的一个资源
+    public destoryForm(formName: string) {
+        if (formName == null || formName == undefined || formName.length <= 0) {
+            return;
+        }
+        console.log(`destoryForm${formName}`);
+        let data = splitFormName(formName);
+        if (this.loadPrefabWithBundleKey.has(data.bundle) && this.loadPrefabWithBundleKey.get(data.bundle)!.has(formName)) {
+            //窗体被销毁减少引用计数
+            if (this.loadPrefabWithBundleKey.get(data.bundle)!.get(formName)!.refCount > 1) {
+                this.loadPrefabWithBundleKey.get(data.bundle)!.get(formName)!.decRef();
+            }
+        }
+    }
 }
 

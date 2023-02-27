@@ -471,5 +471,9 @@
   "833cbc51-2be6-409d-818d-778ea4baaf4e": {
     "url": "db://assets/Script/Utils/PriorityStake.ts",
     "value": {}
+  },
+  "8f367993-c942-4247-ac20-115ccf99a845": {
+    "url": "db://assets/Script/UIFrame/ModalMgr.ts",
+    "value": {}
   }
 }
