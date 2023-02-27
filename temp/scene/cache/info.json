@@ -5,7 +5,8 @@
         "version": "Darwin Kernel Version 22.1.0: Sun Oct  9 20:14:30 PDT 2022; root:xnu-8792.41.9~2/RELEASE_ARM64_T8103"
     },
     "sceneListMap": {
-        "09394949-7567-49fa-b91c-1056952fb20d": "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Launch.scene"
+        "09394949-7567-49fa-b91c-1056952fb20d": "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Launch.scene",
+        "e2c90f3f-274e-4e69-adc6-350062464bcd": "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Main.scene"
     },
     "deviceMd5": "51d5dedef3161b2ff04c5e4f90750ef8"
 }

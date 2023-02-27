@@ -22,7 +22,8 @@
         "09394949-7567-49fa-b91c-1056952fb20d",
         "e6cfaa4e-2af6-449f-ae9a-db5e91bcb797@f9941",
         "4ae16195-9109-4fa5-b653-0150a6453c68@f9941",
-        "f2a8dc0d-12de-4984-bc7b-bda7a9f98702@f9941"
+        "f2a8dc0d-12de-4984-bc7b-bda7a9f98702@f9941",
+        "09394949-7567-49fa-b91c-1056952fb20d"
       ]
     }
   },
@@ -490,6 +491,129 @@
   },
   "2fc472cd-e933-48df-807e-f2a1ac489df6": {
     "url": "db://assets/Lobby/reslist.ts",
+    "value": {}
+  },
+  "46efbd8e-aad6-4df7-8a38-bf9dcbb07c53": {
+    "url": "db://assets/Lobby/UILobbyMgr.ts",
+    "value": {}
+  },
+  "cdd6f2c0-bf14-4297-b51e-72ba8cd8698e": {
+    "url": "db://assets/Script/ProjectConfig.ts",
+    "value": {}
+  },
+  "7524e4b4-1769-4cd5-a4b0-d216a8e15246": {
+    "url": "db://assets/Script/UIRoot.ts",
+    "value": {}
+  },
+  "7b71c308-8160-415c-9783-17d42be7fb2e": {
+    "url": "db://assets/Lobby/Script",
+    "value": {}
+  },
+  "d22f8dac-e694-421e-8084-75c888424ddf": {
+    "url": "db://assets/Script/Games",
+    "value": {}
+  },
+  "c8277c7d-dd10-4c26-9b96-e9076a8248fb": {
+    "url": "db://assets/Lobby/Script/UI",
+    "value": {}
+  },
+  "456fcf74-1d71-4f86-8d7f-f00827b9b6fa": {
+    "url": "db://assets/Script/Base/EventMgr.ts",
+    "value": {}
+  },
+  "d92edc92-d506-4fc6-b0a2-66c38fe5874e": {
+    "url": "db://assets/Script/Base/Sigleton.ts",
+    "value": {}
+  },
+  "1ea28323-4b48-4ebb-a8a0-5d34513dc634": {
+    "url": "db://assets/Script/Games/LogicEvent.ts",
+    "value": {}
+  },
+  "b035ddfa-f5b6-4de6-ae84-c1c44bb58163": {
+    "url": "db://assets/Lobby/Script/UI/UILobby.ts",
+    "value": {}
+  },
+  "c92539c4-b9ff-43bd-a265-1eda9edd4f7d": {
+    "url": "db://assets/Battle/Prefabs/UIBattleLoding.prefab",
+    "value": {
+      "depends": [
+        "e6cfaa4e-2af6-449f-ae9a-db5e91bcb797@f9941",
+        "4ae16195-9109-4fa5-b653-0150a6453c68@f9941",
+        "f2a8dc0d-12de-4984-bc7b-bda7a9f98702@f9941"
+      ]
+    }
+  },
+  "533dc1a1-9979-4d0e-8db3-e0619a5a48c1": {
+    "url": "db://assets/Battle/BattleLogic.ts",
+    "value": {}
+  },
+  "f05181f2-0ec9-4a5c-bc83-fd4681cf04bb": {
+    "url": "db://assets/Lobby/Prefabs/UIWait.prefab",
+    "value": {
+      "depends": [
+        "9092a32a-727a-4820-a833-69c1aef5c756@f9941",
+        "03b43ac5-4d92-4e7b-abea-c6931d09da0d@f9941"
+      ]
+    }
+  },
+  "9092a32a-727a-4820-a833-69c1aef5c756": {
+    "url": "db://assets/Lobby/Texture/Background_BP_button_season9.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "03b43ac5-4d92-4e7b-abea-c6931d09da0d": {
+    "url": "db://assets/Lobby/Texture/friend_loading.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "03b43ac5-4d92-4e7b-abea-c6931d09da0d@6c48a": {
+    "url": "db://assets/Lobby/Texture/friend_loading.png@6c48a",
+    "value": {
+      "depends": [
+        "03b43ac5-4d92-4e7b-abea-c6931d09da0d"
+      ]
+    }
+  },
+  "9092a32a-727a-4820-a833-69c1aef5c756@6c48a": {
+    "url": "db://assets/Lobby/Texture/Background_BP_button_season9.png@6c48a",
+    "value": {
+      "depends": [
+        "9092a32a-727a-4820-a833-69c1aef5c756"
+      ]
+    }
+  },
+  "03b43ac5-4d92-4e7b-abea-c6931d09da0d@f9941": {
+    "url": "db://assets/Lobby/Texture/friend_loading.png@f9941",
+    "value": {
+      "depends": [
+        "03b43ac5-4d92-4e7b-abea-c6931d09da0d@6c48a"
+      ]
+    }
+  },
+  "9092a32a-727a-4820-a833-69c1aef5c756@f9941": {
+    "url": "db://assets/Lobby/Texture/Background_BP_button_season9.png@f9941",
+    "value": {
+      "depends": [
+        "9092a32a-727a-4820-a833-69c1aef5c756@6c48a"
+      ]
+    }
+  },
+  "3bf64354-d593-43bc-936d-2e2face90948": {
+    "url": "db://assets/Battle/Script",
+    "value": {}
+  },
+  "e523577b-1e12-440e-852b-eb3828df9a6f": {
+    "url": "db://assets/Battle/UIBattleMgr.ts",
+    "value": {}
+  },
+  "53e94ff2-b768-46bc-8b45-75edf1c32884": {
+    "url": "db://assets/Script/Base/LogicManager.ts",
+    "value": {}
+  },
+  "b8b33a81-117b-43b9-a07c-2f4f6e93c61a": {
+    "url": "db://assets/Script/Games/BaseLogic.ts",
     "value": {}
   }
 }

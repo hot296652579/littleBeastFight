@@ -341,3 +341,34 @@ myProp = 0;
 2023-02-27T06:05:06.631Z - info: [Scene] [PHYSICS]: using builtin.
 2023-02-27T06:05:06.706Z - log: [Scene] Cocos Creator v3.6.0
 2023-02-27T06:05:06.706Z - info: [Scene] Forward render pipeline initialized.
+2023-02-27T09:25:31.723Z - error: [Preview]TypeError: Cannot read properties of null (reading 'destroyAllChildren')errorInfo.stack ? '/n ' : ''
+2023-02-27T11:52:01.606Z - error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} ReferenceError: BaseLogic is not defined
+    at Object.execute (file:///Users/super_javan/cocoscreator/littleBeastFight3.6/temp/programming/packer-driver/targets/editor/chunks/6a/file:/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts:6:34)
+    at doExec (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:517:30)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
+    at file:///Users/super_javan/cocoscreator/littleBeastFight3.6/temp/programming/packer-driver/targets/editor/chunks/32/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/littleBeastFight3.6/temp/programming/packer-driver/targets/editor/chunks/32/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)
+    at Executor.reload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:151:9)
+    at GlobalEnv.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1989)Error: [Scene] {hidden(::SceneExecutorImportExceptionHandler::)} ReferenceError: BaseLogic is not defined
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:440:12
+    at file:///Users/super_javan/cocoscreator/littleBeastFight3.6/temp/programming/packer-driver/targets/editor/chunks/32/cce:/internal/x/prerequisite-imports:8:13
+    at Object.execute (file:///Users/super_javan/cocoscreator/littleBeastFight3.6/temp/programming/packer-driver/targets/editor/chunks/32/cce:/internal/x/prerequisite-imports:4:1)
+    at Executor._importPrerequisiteModules (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:263:13)
+    at Executor.reload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:151:9)
+    at GlobalEnv.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:1989)
+    at Logger._logHandler (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/startup/log.ccc:1:318)
+    at Logger.record (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:458)
+    at console.error (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@base/electron-logger/lib/renderer.ccc:1:1414)
+    at ScriptManager._handleImportException (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:5825)
+    at Executor.importExceptionHandler [as _importExceptionHandler] (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/scripts.ccc:1:3509)
+    at Executor._onModuleLoaded (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:312:22)
+    at SystemJS.onload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/src/executor/index.ts:73:18)
+    at triggerOnload (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:270:10)
+    at doExec (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:538:7)
+    at postOrderExec (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/node_modules/@editor/lib-programming/static/executor/systemjs-bridge/out/index.js:508:21)
+2023-02-27T12:22:54.982Z - log: [Window] Deprecated as of 10.7.0. highlight(lang, code, ...args) has been deprecated.
+2023-02-27T12:22:54.982Z - log: [Window] Deprecated as of 10.7.0. Please use highlight(code, options) instead.
+https://github.com/highlightjs/highlight.js/issues/2277
+2023-02-27T12:23:46.663Z - error: [Preview]TypeError: Cannot read properties of null (reading 'on')errorInfo.stack ? '/n ' : ''
