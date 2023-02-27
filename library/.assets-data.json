@@ -534,7 +534,7 @@
     "value": {}
   },
   "c92539c4-b9ff-43bd-a265-1eda9edd4f7d": {
-    "url": "db://assets/Battle/Prefabs/UIBattleLoding.prefab",
+    "url": "db://assets/Battle/Prefabs/UIBattleLoading.prefab",
     "value": {
       "depends": [
         "e6cfaa4e-2af6-449f-ae9a-db5e91bcb797@f9941",
@@ -614,6 +614,18 @@
   },
   "b8b33a81-117b-43b9-a07c-2f4f6e93c61a": {
     "url": "db://assets/Script/Games/BaseLogic.ts",
+    "value": {}
+  },
+  "0ee025bf-3378-40e8-bec1-841c3bd4b6d5": {
+    "url": "db://assets/Battle/Script/UIBattleLoading.ts",
+    "value": {}
+  },
+  "93c450aa-7c78-47c7-bea9-4234bc049497": {
+    "url": "db://assets/Battle/Script/games",
+    "value": {}
+  },
+  "0aeaa551-b8a8-454b-9cbd-f1d7ed07aa62": {
+    "url": "db://assets/Battle/Script/UIBattle.ts",
     "value": {}
   }
 }

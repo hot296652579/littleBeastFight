@@ -1,5 +1,6 @@
 import { Component, _decorator } from 'cc';
 import { FormType } from '../Config/SysDefine';
+import { UIManager } from './UIMgr';
 const { ccclass, property } = _decorator;
 
 
@@ -46,8 +47,7 @@ export class UIBase extends Component {
     }
 
     public async closeSelf(): Promise<boolean> {
-        return false
-        // return await UIManager.getInstance().closeForm(this.fid);
+        return await UIManager.getInstance().closeForm(this.fid);
     }
 
     public async showEffect(): Promise<boolean> {

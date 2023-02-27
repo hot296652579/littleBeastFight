@@ -14,6 +14,6 @@ export class UIBattleMgr extends Singleton {
 
     //打开loading界面
     public async showLoading() {
-        return await UIManager.getInstance().openWin("Battle/Prefabs/UIBattleLoding");
+        return await UIManager.getInstance().openWin("Battle/Prefabs/UIBattleLoading");
     }
 }
