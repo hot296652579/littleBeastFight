@@ -819,7 +819,9 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "btnFight": null,
+    "UIGames": null,
+    "test": null,
+    "btnCards": [],
     "_id": "93aDabGK9BVpCm3tnlV6/U"
   },
   {
@@ -1087,7 +1089,9 @@
     },
     "_enabled": true,
     "__prefab": null,
-    "btnFight": null,
+    "UIGames": null,
+    "test": null,
+    "btnCards": [],
     "_id": "5bzATNJX9KB4zgxgIG/OYM"
   },
   {

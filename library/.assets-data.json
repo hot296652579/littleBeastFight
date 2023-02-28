@@ -419,11 +419,50 @@
     "value": {
       "depends": [
         "ecdc640d-936e-449b-b0b0-2664ca4a4353@f9941",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "20835ba4-6145-4fbc-a58a-051ce700aa3e@f9941",
-        "544e49d6-3f05-4fa8-9a9e-091f98fc2ce8@f9941",
-        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941"
+        "8824314f-d4b0-4b8c-ad18-9aad3d574736@f9941",
+        "36bf2267-5ee3-42c9-b41d-c09ce23bfb23@f9941",
+        "773bcf7b-259d-47fd-9179-10d3c713b189@f9941",
+        "8824314f-d4b0-4b8c-ad18-9aad3d574736@f9941",
+        "a7b71bd2-a952-40d3-adaf-15c59820bfb1@f9941",
+        "773bcf7b-259d-47fd-9179-10d3c713b189@f9941",
+        "0d834409-e4cb-4113-a444-0f3c954f2962@f9941",
+        "0d834409-e4cb-4113-a444-0f3c954f2962@f9941",
+        "0d834409-e4cb-4113-a444-0f3c954f2962@f9941",
+        "0d834409-e4cb-4113-a444-0f3c954f2962@f9941",
+        "951249e0-9f16-456d-8b85-a6ca954da16b@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941",
+        "b818c4c6-ab2c-4e41-aac7-5d6257dca407@f9941"
       ]
     }
   },
@@ -641,5 +680,741 @@
         "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
       ]
     }
+  },
+  "2f617ec5-159c-4fe0-92c8-1052825d9a0f": {
+    "url": "db://assets/Battle/Texture/avatar",
+    "value": {}
+  },
+  "8824314f-d4b0-4b8c-ad18-9aad3d574736": {
+    "url": "db://assets/Battle/Texture/AvatarMask.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "4b107aff-8288-46b5-83a1-b62d4615b07e": {
+    "url": "db://assets/Battle/Texture/CardRandom_Grade3.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "8c020c22-2749-4b38-8eb6-24b2b8681e9f": {
+    "url": "db://assets/Battle/Texture/Clock.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "5281b850-5c87-45cd-8061-9f71bd66329b": {
+    "url": "db://assets/Battle/Texture/copy_bg.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "dcadbd46-95a1-43ce-9329-32a23163fb22": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarSilhouette01.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "8c020c22-2749-4b38-8eb6-24b2b8681e9f@6c48a": {
+    "url": "db://assets/Battle/Texture/Clock.png@6c48a",
+    "value": {
+      "depends": [
+        "8c020c22-2749-4b38-8eb6-24b2b8681e9f"
+      ]
+    }
+  },
+  "dcadbd46-95a1-43ce-9329-32a23163fb22@6c48a": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarSilhouette01.png@6c48a",
+    "value": {
+      "depends": [
+        "dcadbd46-95a1-43ce-9329-32a23163fb22"
+      ]
+    }
+  },
+  "8ccf843a-e0f9-42b5-9dd5-ee061798e6fe": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarSilhouette02.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "a7b71bd2-a952-40d3-adaf-15c59820bfb1": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarSilhouette03.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "8824314f-d4b0-4b8c-ad18-9aad3d574736@6c48a": {
+    "url": "db://assets/Battle/Texture/AvatarMask.png@6c48a",
+    "value": {
+      "depends": [
+        "8824314f-d4b0-4b8c-ad18-9aad3d574736"
+      ]
+    }
+  },
+  "07653971-2d7b-4e0d-be61-d5d080dd82b2": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsCommon01.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "5281b850-5c87-45cd-8061-9f71bd66329b@6c48a": {
+    "url": "db://assets/Battle/Texture/copy_bg.png@6c48a",
+    "value": {
+      "depends": [
+        "5281b850-5c87-45cd-8061-9f71bd66329b"
+      ]
+    }
+  },
+  "81ddbfa3-b394-4145-b2b9-43d80fd34126": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsCommon02.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "4b107aff-8288-46b5-83a1-b62d4615b07e@6c48a": {
+    "url": "db://assets/Battle/Texture/CardRandom_Grade3.png@6c48a",
+    "value": {
+      "depends": [
+        "4b107aff-8288-46b5-83a1-b62d4615b07e"
+      ]
+    }
+  },
+  "d1de15f5-7cdb-4132-aab2-4be2b084579b": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsCommon03.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "8ccf843a-e0f9-42b5-9dd5-ee061798e6fe@6c48a": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarSilhouette02.png@6c48a",
+    "value": {
+      "depends": [
+        "8ccf843a-e0f9-42b5-9dd5-ee061798e6fe"
+      ]
+    }
+  },
+  "36bf2267-5ee3-42c9-b41d-c09ce23bfb23": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsCommon05.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "07653971-2d7b-4e0d-be61-d5d080dd82b2@6c48a": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsCommon01.png@6c48a",
+    "value": {
+      "depends": [
+        "07653971-2d7b-4e0d-be61-d5d080dd82b2"
+      ]
+    }
+  },
+  "81ddbfa3-b394-4145-b2b9-43d80fd34126@6c48a": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsCommon02.png@6c48a",
+    "value": {
+      "depends": [
+        "81ddbfa3-b394-4145-b2b9-43d80fd34126"
+      ]
+    }
+  },
+  "dc142265-91c1-4c14-80cb-11100b9d8cd4": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsKB01.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b3343780-b87e-4e08-873c-7ada8e4ad7be": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsLeague01.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "a7b71bd2-a952-40d3-adaf-15c59820bfb1@6c48a": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarSilhouette03.png@6c48a",
+    "value": {
+      "depends": [
+        "a7b71bd2-a952-40d3-adaf-15c59820bfb1"
+      ]
+    }
+  },
+  "38cb6ad6-7dfc-4299-bcc7-39853eff2cbe": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsLeague02.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "d1de15f5-7cdb-4132-aab2-4be2b084579b@6c48a": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsCommon03.png@6c48a",
+    "value": {
+      "depends": [
+        "d1de15f5-7cdb-4132-aab2-4be2b084579b"
+      ]
+    }
+  },
+  "06dd06e7-8f9f-430a-bf3a-f914b8afe946": {
+    "url": "db://assets/Battle/Texture/avatar/ability_tab_bg.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "dc142265-91c1-4c14-80cb-11100b9d8cd4@6c48a": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsKB01.png@6c48a",
+    "value": {
+      "depends": [
+        "dc142265-91c1-4c14-80cb-11100b9d8cd4"
+      ]
+    }
+  },
+  "36bf2267-5ee3-42c9-b41d-c09ce23bfb23@6c48a": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsCommon05.png@6c48a",
+    "value": {
+      "depends": [
+        "36bf2267-5ee3-42c9-b41d-c09ce23bfb23"
+      ]
+    }
+  },
+  "b3343780-b87e-4e08-873c-7ada8e4ad7be@6c48a": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsLeague01.png@6c48a",
+    "value": {
+      "depends": [
+        "b3343780-b87e-4e08-873c-7ada8e4ad7be"
+      ]
+    }
+  },
+  "38cb6ad6-7dfc-4299-bcc7-39853eff2cbe@6c48a": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsLeague02.png@6c48a",
+    "value": {
+      "depends": [
+        "38cb6ad6-7dfc-4299-bcc7-39853eff2cbe"
+      ]
+    }
+  },
+  "06dd06e7-8f9f-430a-bf3a-f914b8afe946@6c48a": {
+    "url": "db://assets/Battle/Texture/avatar/ability_tab_bg.png@6c48a",
+    "value": {
+      "depends": [
+        "06dd06e7-8f9f-430a-bf3a-f914b8afe946"
+      ]
+    }
+  },
+  "6fe09c35-6821-47a1-aaec-526c5afee4e8": {
+    "url": "db://assets/Battle/Texture/Menu_button.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "0d834409-e4cb-4113-a444-0f3c954f2962": {
+    "url": "db://assets/Battle/Texture/arrow_boss_move.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "0d834409-e4cb-4113-a444-0f3c954f2962@6c48a": {
+    "url": "db://assets/Battle/Texture/arrow_boss_move.png@6c48a",
+    "value": {
+      "depends": [
+        "0d834409-e4cb-4113-a444-0f3c954f2962"
+      ]
+    }
+  },
+  "6fe09c35-6821-47a1-aaec-526c5afee4e8@6c48a": {
+    "url": "db://assets/Battle/Texture/Menu_button.png@6c48a",
+    "value": {
+      "depends": [
+        "6fe09c35-6821-47a1-aaec-526c5afee4e8"
+      ]
+    }
+  },
+  "8c020c22-2749-4b38-8eb6-24b2b8681e9f@f9941": {
+    "url": "db://assets/Battle/Texture/Clock.png@f9941",
+    "value": {
+      "depends": [
+        "8c020c22-2749-4b38-8eb6-24b2b8681e9f@6c48a"
+      ]
+    }
+  },
+  "0d834409-e4cb-4113-a444-0f3c954f2962@f9941": {
+    "url": "db://assets/Battle/Texture/arrow_boss_move.png@f9941",
+    "value": {
+      "depends": [
+        "0d834409-e4cb-4113-a444-0f3c954f2962@6c48a"
+      ]
+    }
+  },
+  "8824314f-d4b0-4b8c-ad18-9aad3d574736@f9941": {
+    "url": "db://assets/Battle/Texture/AvatarMask.png@f9941",
+    "value": {
+      "depends": [
+        "8824314f-d4b0-4b8c-ad18-9aad3d574736@6c48a"
+      ]
+    }
+  },
+  "4b107aff-8288-46b5-83a1-b62d4615b07e@f9941": {
+    "url": "db://assets/Battle/Texture/CardRandom_Grade3.png@f9941",
+    "value": {
+      "depends": [
+        "4b107aff-8288-46b5-83a1-b62d4615b07e@6c48a"
+      ]
+    }
+  },
+  "5281b850-5c87-45cd-8061-9f71bd66329b@f9941": {
+    "url": "db://assets/Battle/Texture/copy_bg.png@f9941",
+    "value": {
+      "depends": [
+        "5281b850-5c87-45cd-8061-9f71bd66329b@6c48a"
+      ]
+    }
+  },
+  "6fe09c35-6821-47a1-aaec-526c5afee4e8@f9941": {
+    "url": "db://assets/Battle/Texture/Menu_button.png@f9941",
+    "value": {
+      "depends": [
+        "6fe09c35-6821-47a1-aaec-526c5afee4e8@6c48a"
+      ]
+    }
+  },
+  "06dd06e7-8f9f-430a-bf3a-f914b8afe946@f9941": {
+    "url": "db://assets/Battle/Texture/avatar/ability_tab_bg.png@f9941",
+    "value": {
+      "depends": [
+        "06dd06e7-8f9f-430a-bf3a-f914b8afe946@6c48a"
+      ]
+    }
+  },
+  "36bf2267-5ee3-42c9-b41d-c09ce23bfb23@f9941": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsCommon05.png@f9941",
+    "value": {
+      "depends": [
+        "36bf2267-5ee3-42c9-b41d-c09ce23bfb23@6c48a"
+      ]
+    }
+  },
+  "07653971-2d7b-4e0d-be61-d5d080dd82b2@f9941": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsCommon01.png@f9941",
+    "value": {
+      "depends": [
+        "07653971-2d7b-4e0d-be61-d5d080dd82b2@6c48a"
+      ]
+    }
+  },
+  "81ddbfa3-b394-4145-b2b9-43d80fd34126@f9941": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsCommon02.png@f9941",
+    "value": {
+      "depends": [
+        "81ddbfa3-b394-4145-b2b9-43d80fd34126@6c48a"
+      ]
+    }
+  },
+  "d1de15f5-7cdb-4132-aab2-4be2b084579b@f9941": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsCommon03.png@f9941",
+    "value": {
+      "depends": [
+        "d1de15f5-7cdb-4132-aab2-4be2b084579b@6c48a"
+      ]
+    }
+  },
+  "dcadbd46-95a1-43ce-9329-32a23163fb22@f9941": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarSilhouette01.png@f9941",
+    "value": {
+      "depends": [
+        "dcadbd46-95a1-43ce-9329-32a23163fb22@6c48a"
+      ]
+    }
+  },
+  "8ccf843a-e0f9-42b5-9dd5-ee061798e6fe@f9941": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarSilhouette02.png@f9941",
+    "value": {
+      "depends": [
+        "8ccf843a-e0f9-42b5-9dd5-ee061798e6fe@6c48a"
+      ]
+    }
+  },
+  "dc142265-91c1-4c14-80cb-11100b9d8cd4@f9941": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsKB01.png@f9941",
+    "value": {
+      "depends": [
+        "dc142265-91c1-4c14-80cb-11100b9d8cd4@6c48a"
+      ]
+    }
+  },
+  "a7b71bd2-a952-40d3-adaf-15c59820bfb1@f9941": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarSilhouette03.png@f9941",
+    "value": {
+      "depends": [
+        "a7b71bd2-a952-40d3-adaf-15c59820bfb1@6c48a"
+      ]
+    }
+  },
+  "b3343780-b87e-4e08-873c-7ada8e4ad7be@f9941": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsLeague01.png@f9941",
+    "value": {
+      "depends": [
+        "b3343780-b87e-4e08-873c-7ada8e4ad7be@6c48a"
+      ]
+    }
+  },
+  "38cb6ad6-7dfc-4299-bcc7-39853eff2cbe@f9941": {
+    "url": "db://assets/Battle/Texture/avatar/AvatarsLeague02.png@f9941",
+    "value": {
+      "depends": [
+        "38cb6ad6-7dfc-4299-bcc7-39853eff2cbe@6c48a"
+      ]
+    }
+  },
+  "773bcf7b-259d-47fd-9179-10d3c713b189": {
+    "url": "db://assets/Battle/Texture/gold_questico.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "773bcf7b-259d-47fd-9179-10d3c713b189@6c48a": {
+    "url": "db://assets/Battle/Texture/gold_questico.png@6c48a",
+    "value": {
+      "depends": [
+        "773bcf7b-259d-47fd-9179-10d3c713b189"
+      ]
+    }
+  },
+  "773bcf7b-259d-47fd-9179-10d3c713b189@f9941": {
+    "url": "db://assets/Battle/Texture/gold_questico.png@f9941",
+    "value": {
+      "depends": [
+        "773bcf7b-259d-47fd-9179-10d3c713b189@6c48a"
+      ]
+    }
+  },
+  "3b4a428e-a0e0-4dce-9fbe-07d7478a14b1": {
+    "url": "db://assets/Battle/Texture/animal",
+    "value": {}
+  },
+  "b818c4c6-ab2c-4e41-aac7-5d6257dca407": {
+    "url": "db://assets/Battle/Texture/animal/bear.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "29c17473-fefd-457b-b4cb-8cc0af4f08d0": {
+    "url": "db://assets/Battle/Texture/animal/crocodile.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "28daf033-da5a-4a88-8e71-5bea80c05c0c": {
+    "url": "db://assets/Battle/Texture/animal/dog.png",
+    "value": {}
+  },
+  "49ab0f62-de55-4669-8891-4595a74ed2dd": {
+    "url": "db://assets/Battle/Texture/animal/elephant.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "064cb884-b228-4706-bba6-600c092c1ce2": {
+    "url": "db://assets/Battle/Texture/animal/gorilla.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "b818c4c6-ab2c-4e41-aac7-5d6257dca407@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/bear.png@6c48a",
+    "value": {
+      "depends": [
+        "b818c4c6-ab2c-4e41-aac7-5d6257dca407"
+      ]
+    }
+  },
+  "3ff7189d-5c03-47d6-a41d-1bfb787d9225": {
+    "url": "db://assets/Battle/Texture/animal/lion.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "064cb884-b228-4706-bba6-600c092c1ce2@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/gorilla.png@6c48a",
+    "value": {
+      "depends": [
+        "064cb884-b228-4706-bba6-600c092c1ce2"
+      ]
+    }
+  },
+  "7132f6b5-7b74-4df9-9fef-50ec30360d2c": {
+    "url": "db://assets/Battle/Texture/animal/pig.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "49ab0f62-de55-4669-8891-4595a74ed2dd@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/elephant.png@6c48a",
+    "value": {
+      "depends": [
+        "49ab0f62-de55-4669-8891-4595a74ed2dd"
+      ]
+    }
+  },
+  "29b3a428-3230-4554-96e1-759262b063c3": {
+    "url": "db://assets/Battle/Texture/animal/tiger.jpg",
+    "value": {
+      "depends": []
+    }
+  },
+  "29c17473-fefd-457b-b4cb-8cc0af4f08d0@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/crocodile.png@6c48a",
+    "value": {
+      "depends": [
+        "29c17473-fefd-457b-b4cb-8cc0af4f08d0"
+      ]
+    }
+  },
+  "28daf033-da5a-4a88-8e71-5bea80c05c0c@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/dog.png@6c48a",
+    "value": {
+      "depends": [
+        "28daf033-da5a-4a88-8e71-5bea80c05c0c"
+      ]
+    }
+  },
+  "29b3a428-3230-4554-96e1-759262b063c3@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/tiger.jpg@6c48a",
+    "value": {
+      "depends": [
+        "29b3a428-3230-4554-96e1-759262b063c3"
+      ]
+    }
+  },
+  "7132f6b5-7b74-4df9-9fef-50ec30360d2c@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/pig.png@6c48a",
+    "value": {
+      "depends": [
+        "7132f6b5-7b74-4df9-9fef-50ec30360d2c"
+      ]
+    }
+  },
+  "3ff7189d-5c03-47d6-a41d-1bfb787d9225@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/lion.png@6c48a",
+    "value": {
+      "depends": [
+        "3ff7189d-5c03-47d6-a41d-1bfb787d9225"
+      ]
+    }
+  },
+  "29c17473-fefd-457b-b4cb-8cc0af4f08d0@f9941": {
+    "url": "db://assets/Battle/Texture/animal/crocodile.png@f9941",
+    "value": {
+      "depends": [
+        "29c17473-fefd-457b-b4cb-8cc0af4f08d0@6c48a"
+      ]
+    }
+  },
+  "b818c4c6-ab2c-4e41-aac7-5d6257dca407@f9941": {
+    "url": "db://assets/Battle/Texture/animal/bear.png@f9941",
+    "value": {
+      "depends": [
+        "b818c4c6-ab2c-4e41-aac7-5d6257dca407@6c48a"
+      ]
+    }
+  },
+  "28daf033-da5a-4a88-8e71-5bea80c05c0c@f9941": {
+    "url": "db://assets/Battle/Texture/animal/dog.png@f9941",
+    "value": {
+      "depends": [
+        "28daf033-da5a-4a88-8e71-5bea80c05c0c@6c48a"
+      ]
+    }
+  },
+  "49ab0f62-de55-4669-8891-4595a74ed2dd@f9941": {
+    "url": "db://assets/Battle/Texture/animal/elephant.png@f9941",
+    "value": {
+      "depends": [
+        "49ab0f62-de55-4669-8891-4595a74ed2dd@6c48a"
+      ]
+    }
+  },
+  "064cb884-b228-4706-bba6-600c092c1ce2@f9941": {
+    "url": "db://assets/Battle/Texture/animal/gorilla.png@f9941",
+    "value": {
+      "depends": [
+        "064cb884-b228-4706-bba6-600c092c1ce2@6c48a"
+      ]
+    }
+  },
+  "29b3a428-3230-4554-96e1-759262b063c3@f9941": {
+    "url": "db://assets/Battle/Texture/animal/tiger.jpg@f9941",
+    "value": {
+      "depends": [
+        "29b3a428-3230-4554-96e1-759262b063c3@6c48a"
+      ]
+    }
+  },
+  "7132f6b5-7b74-4df9-9fef-50ec30360d2c@f9941": {
+    "url": "db://assets/Battle/Texture/animal/pig.png@f9941",
+    "value": {
+      "depends": [
+        "7132f6b5-7b74-4df9-9fef-50ec30360d2c@6c48a"
+      ]
+    }
+  },
+  "3ff7189d-5c03-47d6-a41d-1bfb787d9225@f9941": {
+    "url": "db://assets/Battle/Texture/animal/lion.png@f9941",
+    "value": {
+      "depends": [
+        "3ff7189d-5c03-47d6-a41d-1bfb787d9225@6c48a"
+      ]
+    }
+  },
+  "1cfdd24f-126e-4d3b-8b44-ed92ce54b706": {
+    "url": "db://assets/Battle/Texture/animal/walrus.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "1cfdd24f-126e-4d3b-8b44-ed92ce54b706@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/walrus.png@6c48a",
+    "value": {
+      "depends": [
+        "1cfdd24f-126e-4d3b-8b44-ed92ce54b706"
+      ]
+    }
+  },
+  "1cfdd24f-126e-4d3b-8b44-ed92ce54b706@f9941": {
+    "url": "db://assets/Battle/Texture/animal/walrus.png@f9941",
+    "value": {
+      "depends": [
+        "1cfdd24f-126e-4d3b-8b44-ed92ce54b706@6c48a"
+      ]
+    }
+  },
+  "fae6d0d7-41e3-4bc7-b2c6-bb3708d22dde": {
+    "url": "db://assets/Battle/Script/games/AIEngine.ts",
+    "value": {}
+  },
+  "76bb0746-bbe8-4d56-bada-e8bfd0fa4534": {
+    "url": "db://assets/Battle/Script/games/dto",
+    "value": {}
+  },
+  "84139771-2889-4210-9caa-d76d3d5aaf7a": {
+    "url": "db://assets/Battle/Script/games/fire",
+    "value": {}
+  },
+  "ae6ac688-4683-420b-b2d9-466919ca16cb": {
+    "url": "db://assets/Battle/Script/games/vo",
+    "value": {}
+  },
+  "390b4be3-48b2-4a33-9eb2-965f08f7c2df": {
+    "url": "db://assets/Battle/Script/games/dto/ConfirmColorDTO.ts",
+    "value": {}
+  },
+  "37db4e29-36e9-485b-b8d2-9e373e41d00a": {
+    "url": "db://assets/Battle/Script/games/dto/EndGameDTO.ts",
+    "value": {}
+  },
+  "d87f88a1-842e-436c-8469-d9fce98c8637": {
+    "url": "db://assets/Battle/Script/games/dto/MoveCardDTO.ts",
+    "value": {}
+  },
+  "360065aa-c552-409f-816d-aff62b583852": {
+    "url": "db://assets/Battle/Script/games/dto/MoveResultDTO.ts",
+    "value": {}
+  },
+  "7b7c3c70-d1de-41c5-b465-2f43e72d36b0": {
+    "url": "db://assets/Battle/Script/games/dto/OpenCardDTO.ts",
+    "value": {}
+  },
+  "48a734c2-eb88-4c8b-8d33-0ac16e9a81e2": {
+    "url": "db://assets/Battle/Script/games/dto/OpenResultDTO.ts",
+    "value": {}
+  },
+  "e510a359-f78e-4bbe-9af3-e742a72d503e": {
+    "url": "db://assets/Battle/Script/games/dto/OperationNotifyDTO.ts",
+    "value": {}
+  },
+  "480cc1e5-e04d-4663-a6c4-ff6bc1f6143f": {
+    "url": "db://assets/Battle/Script/games/dto/SitDownDTO.ts",
+    "value": {}
+  },
+  "d5f664c8-888a-4cd1-a43d-2fac93cd1e10": {
+    "url": "db://assets/Battle/Script/games/dto/StartGameDTO.ts",
+    "value": {}
+  },
+  "0dbdf2b5-b70c-41fd-87be-91e600b26eba": {
+    "url": "db://assets/Battle/Script/games/fire/FireKit.ts",
+    "value": {}
+  },
+  "7ea8850f-6ff3-42c3-8132-eb370475ab0c": {
+    "url": "db://assets/Battle/Script/games/fire/OnFire.ts",
+    "value": {}
+  },
+  "fd3263ee-d8ef-4292-96ba-03a97a55799f": {
+    "url": "db://assets/Battle/Script/games/vo/ConfirmColorVO.ts",
+    "value": {}
+  },
+  "3976e9a3-c94d-4d69-b4c1-2ac05b3ad669": {
+    "url": "db://assets/Battle/Script/games/vo/EndGameVO.ts",
+    "value": {}
+  },
+  "012b0104-2f62-4d91-a366-9394a73c8da2": {
+    "url": "db://assets/Battle/Script/games/vo/MoveResultVO.ts",
+    "value": {}
+  },
+  "cd4d6921-4c3d-451f-abc3-803711e99015": {
+    "url": "db://assets/Battle/Script/games/vo/OpenResultVO.ts",
+    "value": {}
+  },
+  "8b3d22e0-5302-4568-bbe7-b6f2875c41d2": {
+    "url": "db://assets/Battle/Script/games/vo/OperationNotifyVO.ts",
+    "value": {}
+  },
+  "c20d1c48-bb38-4a0e-906c-4326ca941f96": {
+    "url": "db://assets/Battle/Script/games/vo/SitDownVO.ts",
+    "value": {}
+  },
+  "c72e8841-6284-4b14-9064-10c95f7d34f8": {
+    "url": "db://assets/Battle/Script/games/vo/StartGameVO.ts",
+    "value": {}
+  },
+  "85164753-4a05-4b8f-a913-c0f7d8e64a69": {
+    "url": "db://assets/Battle/Script/games/AiEngine.ts",
+    "value": {}
+  },
+  "5e7f0b4d-a939-471d-a2d5-96665159bad1": {
+    "url": "db://assets/Battle/Script/games/AiPlayer.ts",
+    "value": {}
+  },
+  "95cf85b6-e8d9-4bb0-8942-532a5f7282a6": {
+    "url": "db://assets/Battle/Script/games/Config.ts",
+    "value": {}
+  },
+  "bd82eb1c-3e7f-4d0c-ba8a-1a740c35a525": {
+    "url": "db://assets/Battle/Script/games/GameEngine.ts",
+    "value": {}
+  },
+  "ddb19293-2f76-4807-9768-f79c69be2ebe": {
+    "url": "db://assets/Battle/Script/games/GameEvent.ts",
+    "value": {}
+  },
+  "65a774f1-36e3-4420-8016-624b0cd48c2c": {
+    "url": "db://assets/Battle/Script/games/HumanPlayer.ts",
+    "value": {}
+  },
+  "ceb8c0dc-d8d8-4ea5-ab2b-5bbdf4df1981": {
+    "url": "db://assets/Battle/Script/games/Player.ts",
+    "value": {}
+  },
+  "432fcde8-e11a-4656-8110-38bce6a306be": {
+    "url": "db://assets/Battle/Script/games/PlayerManager.ts",
+    "value": {}
+  },
+  "070770c4-f776-4277-9193-3e5b8c9e09eb": {
+    "url": "db://assets/Battle/Script/games/utils",
+    "value": {}
+  },
+  "72110a96-bb25-47d0-9e3c-471fa164ccc5": {
+    "url": "db://assets/Battle/Script/games/utils/TweenUtils.ts",
+    "value": {}
+  },
+  "c8575db5-67d1-4bca-9df9-cb031c1f0328": {
+    "url": "db://assets/Battle/Script/games/UI",
+    "value": {}
+  },
+  "a162c2c9-7963-4f69-b613-b481d568f146": {
+    "url": "db://assets/Battle/Script/games/UI/UICard.ts",
+    "value": {}
   }
 }

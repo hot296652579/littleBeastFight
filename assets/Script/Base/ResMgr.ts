@@ -177,7 +177,7 @@ export class ResMgr {
         if (!this.loadSpriteFrameWithBundleKey.has(bundleName)) {
             this.loadSpriteFrameWithBundleKey.set(bundleName, new Map<string, SpriteFrame>());
         }
-        bundle.load<SpriteFrame>(spriteFrameName, (loadCnt: number, allCnt: number, item: AssetManager.RequestItem) => {
+        bundle.load<SpriteFrame>(spriteFrameName + '/spriteFrame', (loadCnt: number, allCnt: number, item: AssetManager.RequestItem) => {
             this.loadProgress[filePath] = loadCnt / allCnt;
             this.calProgress(0);
         }, (err, spriteFrame: SpriteFrame) => {
@@ -338,9 +338,9 @@ export class ResMgr {
     }
 
     /**
- * @description: 预加载bundle对应的 spine
- * @param {string} formName
- */
+     * @description: 预加载bundle对应的 spine
+     * @param {string} formName
+     */
     public async preloadBundleSpine(formName: string) {
         let data = splitFormName(formName);
         let bundleName = data.bundle;

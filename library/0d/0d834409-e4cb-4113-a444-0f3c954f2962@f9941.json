@@ -1,0 +1,90 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "arrow_boss_move",
+    "atlas": "",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "width": 43,
+      "height": 50
+    },
+    "offset": {
+      "x": 0,
+      "y": 0
+    },
+    "originalSize": {
+      "width": 43,
+      "height": 50
+    },
+    "rotated": false,
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "vertices": {
+      "rawPosition": [
+        -21.5,
+        -25,
+        0,
+        21.5,
+        -25,
+        0,
+        -21.5,
+        25,
+        0,
+        21.5,
+        25,
+        0
+      ],
+      "indexes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        3
+      ],
+      "uv": [
+        0,
+        50,
+        43,
+        50,
+        0,
+        0,
+        43,
+        0
+      ],
+      "nuv": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "minPos": {
+        "x": -21.5,
+        "y": -25,
+        "z": 0
+      },
+      "maxPos": {
+        "x": 21.5,
+        "y": 25,
+        "z": 0
+      }
+    },
+    "texture": "0d834409-e4cb-4113-a444-0f3c954f2962@6c48a",
+    "packable": true,
+    "pixelsToUnit": 100,
+    "pivot": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meshType": 0
+  }
+}
