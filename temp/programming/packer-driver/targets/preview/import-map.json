@@ -4,11 +4,12 @@
     "cce:/internal/x/prerequisite-imports": "./chunks/44/44e2fabe13c16d8b87bdac45c211f4bb452a36ec.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts": "./chunks/64/6411a72af153350e1f6bbc19230f815fd6a5b359.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts": "./chunks/1f/1f85b23c882f53b4346f028d889e74dfb0a586e9.js",
+    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts": "./chunks/30/3004afae16249c663d2fb17afa39e91f9666920f.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts": "./chunks/8e/8ea62be8c97a8a14e6db03869c5a81e3cb21a49b.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts": "./chunks/49/493847fcf07f6e2493b716ed122630347fc2a489.js",
+    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts": "./chunks/d9/d965fbf8b1331e1aa0f84f4d5008fd06bcac8283.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts": "./chunks/eb/eb3db1a26c14814af4b1e0e5c2e186e6c9164e0b.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts": "./chunks/4b/4bca42af43eb1875a239bea8e08696a73aca8f6d.js",
-    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts": "./chunks/ed/ed9b017046c275ec821132d7d3b1dac7dfc7a10e.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts": "./chunks/f8/f8bcad3e7bb2388817bf6e606316df9bf3fec983.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts": "./chunks/e1/e1c0e459db2d4d4bf0a391a3fd9a3128f0d46a3e.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts": "./chunks/71/71e7ea087cd1980213cda2568bb0266dca9d338f.js",
@@ -17,17 +18,16 @@
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts": "./chunks/81/817220591d86bf88b476950f9f4d95674a81ef5e.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts": "./chunks/0e/0e6ba90bf6400a5862142b5e5678e6b2117ca32b.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts": "./chunks/78/78007804d32095a3e87652c358b393d294ecbc13.js",
+    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts": "./chunks/34/346c7a0ae8229e2cc7d34e39761eb8d7b55c8f8e.js",
+    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts": "./chunks/33/332d3519900b8998cad2c4a00ede9da1adda4e4b.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts": "./chunks/2d/2dbb80ef298f04c798019621fbd1513101fa50b3.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts": "./chunks/d1/d17c7649565db9ec8c20532a031a9fde23641100.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts": "./chunks/05/052a2ab11ff5d30e27c034b4a2fce614542ce7a9.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts": "./chunks/15/159e5b4ed11a6a06d1eeaf88da80b783b950c1a4.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts": "./chunks/35/352909958aff6a5fa27bcc456184c1d2f8d506f3.js",
-    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts": "./chunks/c6/c639e4a61f3591192b671ad11636abc671a79868.js",
-    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts": "./chunks/d9/d965fbf8b1331e1aa0f84f4d5008fd06bcac8283.js",
-    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts": "./chunks/30/3004afae16249c663d2fb17afa39e91f9666920f.js",
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts": "./chunks/47/479f20fc31546271ce6664bc8cae49b6f70a8cf8.js",
-    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts": "./chunks/33/332d3519900b8998cad2c4a00ede9da1adda4e4b.js",
-    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts": "./chunks/34/346c7a0ae8229e2cc7d34e39761eb8d7b55c8f8e.js"
+    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts": "./chunks/c6/c639e4a61f3591192b671ad11636abc671a79868.js",
+    "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts": "./chunks/ee/ee65ccb7e87914c90d545b19b56c45b03a36f4d8.js"
   },
   "scopes": {
     "./chunks/90/909f786ffe128f06f5aa1b4e1e3fbbd65262915e.js": {
@@ -53,7 +53,7 @@
     },
     "./chunks/44/44e2fabe13c16d8b87bdac45c211f4bb452a36ec.js": {
       "__unresolved_0": "./chunks/64/6411a72af153350e1f6bbc19230f815fd6a5b359.js",
-      "__unresolved_1": "./chunks/ed/ed9b017046c275ec821132d7d3b1dac7dfc7a10e.js",
+      "__unresolved_1": "./chunks/ee/ee65ccb7e87914c90d545b19b56c45b03a36f4d8.js",
       "__unresolved_10": "./chunks/71/71e7ea087cd1980213cda2568bb0266dca9d338f.js",
       "__unresolved_11": "./chunks/a5/a5ea7d7400fa223c8cbc8e3dc37876f7e0b76aa2.js",
       "__unresolved_12": "./chunks/ec/ec6a114ddf3915ecea647f0f68d4c246f1fb9869.js",
@@ -201,7 +201,7 @@
       "__unresolved_1": "./chunks/ec/ec6a114ddf3915ecea647f0f68d4c246f1fb9869.js",
       "cc": "./chunks/90/909f786ffe128f06f5aa1b4e1e3fbbd65262915e.js"
     },
-    "./chunks/ed/ed9b017046c275ec821132d7d3b1dac7dfc7a10e.js": {
+    "./chunks/ee/ee65ccb7e87914c90d545b19b56c45b03a36f4d8.js": {
       "__unresolved_0": "./chunks/3a/3a1fd7b13056478820ebedd306d3446d1aa408cc.js",
       "__unresolved_1": "./chunks/e1/e1c0e459db2d4d4bf0a391a3fd9a3128f0d46a3e.js",
       "__unresolved_2": "./chunks/78/78007804d32095a3e87652c358b393d294ecbc13.js",

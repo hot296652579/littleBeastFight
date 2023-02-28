@@ -537,7 +537,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts": {
-    "time": 1677509645377.0935,
+    "time": 1677549303056.3577,
     "uuid": "ce77fe6a-daa8-40a3-bcbc-b91a7278cc27",
     "missing": false
   },
@@ -555,7 +555,7 @@
     "time": 1677475073138.5166
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts": {
-    "time": 1677509840987.943,
+    "time": 1677509887385.063,
     "uuid": "8f367993-c942-4247-ac20-115ccf99a845",
     "missing": false
   },
@@ -659,7 +659,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts": {
-    "time": 1677503969323.3508,
+    "time": 1677549308280.6165,
     "uuid": "b035ddfa-f5b6-4de6-ae84-c1c44bb58163",
     "missing": false
   },
@@ -739,7 +739,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts": {
-    "time": 1677503922623.2866,
+    "time": 1677509870133.6956,
     "uuid": "0ee025bf-3378-40e8-bec1-841c3bd4b6d5",
     "missing": false
   },
@@ -747,7 +747,7 @@
     "time": 1677501941101.0823
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts": {
-    "time": 1677502598646.0618,
+    "time": 1677549472657.5732,
     "uuid": "0aeaa551-b8a8-454b-9cbd-f1d7ed07aa62",
     "missing": false
   },
@@ -755,7 +755,7 @@
     "time": 1677502374499.3125
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Prefabs/UIBattleLoading.prefab": {
-    "time": 1677509276431.3613,
+    "time": 1677549437833.3123,
     "uuid": "c92539c4-b9ff-43bd-a265-1eda9edd4f7d",
     "missing": false
   },

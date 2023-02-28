@@ -7,7 +7,7 @@ const { ccclass, property } = _decorator;
 
 @ccclass('UIBattle')
 export class UIBattle extends UIScreen {
-    isEngross = true;
+    isEngross = false;
 
     @property(Node)
     private btnFight: Node = null;

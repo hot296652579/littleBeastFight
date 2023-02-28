@@ -1,11 +1,11 @@
-debug: Mon, 27 Feb 2023 14:03:26 GMT
+debug: Tue, 28 Feb 2023 01:52:09 GMT
 debug: Project: /Users/super_javan/cocoscreator/littleBeastFight3.6
 debug: Targets: editor,preview
 debug: Incremental file seems great.
 debug: Engine path: /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/resources/3d/engine
 debug: Initializing target [Editor]
 debug: Loading cache
-debug: Loading cache costs 1.34170800447464ms.
+debug: Loading cache costs 1.1295000314712524ms.
 debug: Engine features shipped in editor: base,gfx-webgl,gfx-webgl2,3d,animation,skeletal-animation,2d,ui,particle,particle-2d,physics-framework,physics-2d-framework,intersection-2d,primitive,profiler,occlusion-query,geometry-renderer,debug-renderer,audio,video,terrain,webview,tween,tiled-map,spine,dragon-bones,marionette,custom-pipeline
 debug: Our import map(foo:/bar): {
   "imports": {
@@ -14,7 +14,7 @@ debug: Our import map(foo:/bar): {
 }
 debug: Initializing target [Preview]
 debug: Loading cache
-debug: Loading cache costs 1.1314589977264404ms.
+debug: Loading cache costs 0.8069169521331787ms.
 debug: Our import map(foo:/bar): {
   "imports": {
     "cc": "cce:/internal/x/cc"
@@ -46,12 +46,12 @@ debug: Our import map(foo:/bar): {
   }
 }
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 3.785959005355835ms.
+debug: Fetch asset-db cost: 4.299750030040741ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 26
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/base from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/base.
 debug: Resolve cce:/internal/x/cc-fu/gfx-webgl from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/gfx-webgl.
@@ -78,11 +78,11 @@ debug: Resolve cce:/internal/x/cc-fu/tiled-map from cce:/internal/x/cc as extern
 debug: Resolve cce:/internal/x/cc-fu/spine from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/spine.
 debug: Resolve cce:/internal/x/cc-fu/dragon-bones from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/dragon-bones.
 debug: Resolve cce:/internal/x/cc-fu/custom-pipeline from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/custom-pipeline.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:18:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:38:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Feb 27 2023 21:04:20 GMT+0800 (中国标准时间), Current mtime: Mon Feb 27 2023 22:03:22 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Feb 27 2023 22:03:22 GMT+0800 (中国标准时间), Current mtime: Tue Feb 28 2023 09:52:05 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts as cce:/internal/x/cc.
 debug: Resolve ../Lobby/UILobbyMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts.
@@ -220,9 +220,9 @@ debug: Resolve ./UIFrame/UIMgr from file:///Users/super_javan/cocoscreator/littl
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(editor) ends with cost 91.20954197645187ms.
+debug: Target(editor) ends with cost 95.01179200410843ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/cc. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/cc
 debug: Resolve cce:/internal/x/cc-fu/2d from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/2d.
 debug: Resolve cce:/internal/x/cc-fu/animation from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/animation.
@@ -243,11 +243,11 @@ debug: Resolve cce:/internal/x/cc-fu/tween from cce:/internal/x/cc as external d
 debug: Resolve cce:/internal/x/cc-fu/ui from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/ui.
 debug: Resolve cce:/internal/x/cc-fu/video from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/video.
 debug: Resolve cce:/internal/x/cc-fu/webview from cce:/internal/x/cc as external dependency cce:/internal/x/cc-fu/webview.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:18:15 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 18:38:22 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts as cce:/internal/code-quality/cr.mjs.
-debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Feb 27 2023 21:04:20 GMT+0800 (中国标准时间), Current mtime: Mon Feb 27 2023 22:03:22 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/code-quality/cr.mjs. Last mtime: Mon Feb 27 2023 22:03:22 GMT+0800 (中国标准时间), Current mtime: Tue Feb 28 2023 09:52:05 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/code-quality/cr.mjs
 debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts as cce:/internal/x/cc.
 debug: Resolve ../Lobby/UILobbyMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts.
@@ -385,14 +385,14 @@ debug: Resolve ./UIFrame/UIMgr from file:///Users/super_javan/cocoscreator/littl
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(preview) ends with cost 68.68983399868011ms.
+debug: Target(preview) ends with cost 61.02612495422363ms.
 debug: Pulling asset-db.
-debug: Fetch asset-db cost: 6.071916997432709ms.
+debug: Fetch asset-db cost: 14.985666036605835ms.
 debug: Build iteration starts.
 Number of accumulated asset changes: 26
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:03 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
@@ -420,9 +420,9 @@ debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(editor) ends with cost 28.30441701412201ms.
+debug: Target(editor) ends with cost 55.43916696310043ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
@@ -450,328 +450,16 @@ debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(preview) ends with cost 23.319540977478027ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 2
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:11:25 GMT+0800 (中国标准时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts. Last mtime: Mon Feb 27 2023 21:16:59 GMT+0800 (中国标准时间)@ac2d600d-925e-46a4-a71c-62a09d3af34c, Current mtime: Mon Feb 27 2023 22:14:46 GMT+0800 (中国标准时间)@ac2d600d-925e-46a4-a71c-62a09d3af34c
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts. Last mtime: Mon Feb 27 2023 20:20:13 GMT+0800 (中国标准时间)@2fc472cd-e933-48df-807e-f2a1ac489df6, Current mtime: Mon Feb 27 2023 22:14:37 GMT+0800 (中国标准时间)@2fc472cd-e933-48df-807e-f2a1ac489df6
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(editor) ends with cost 68.11379200220108ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:05 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:11:25 GMT+0800 (中国标准时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts. Last mtime: Mon Feb 27 2023 21:16:59 GMT+0800 (中国标准时间)@ac2d600d-925e-46a4-a71c-62a09d3af34c, Current mtime: Mon Feb 27 2023 22:14:46 GMT+0800 (中国标准时间)@ac2d600d-925e-46a4-a71c-62a09d3af34c
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts. Last mtime: Mon Feb 27 2023 20:20:13 GMT+0800 (中国标准时间)@2fc472cd-e933-48df-807e-f2a1ac489df6, Current mtime: Mon Feb 27 2023 22:14:37 GMT+0800 (中国标准时间)@2fc472cd-e933-48df-807e-f2a1ac489df6
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(preview) ends with cost 70.1310830116272ms.
+debug: Target(preview) ends with cost 24.182874977588654ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:11:25 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:16:08 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:30 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts. Last mtime: Mon Feb 27 2023 13:57:29 GMT+0800 (中国标准时间)@8f367993-c942-4247-ac20-115ccf99a845, Current mtime: Mon Feb 27 2023 22:19:29 GMT+0800 (中国标准时间)@8f367993-c942-4247-ac20-115ccf99a845
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve ../Config/SysDefine from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
-debug: Resolve ./UIMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(editor) ends with cost 97.7119579911232ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:11:25 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:16:08 GMT+0800 (中国标准时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts. Last mtime: Mon Feb 27 2023 13:57:29 GMT+0800 (中国标准时间)@8f367993-c942-4247-ac20-115ccf99a845, Current mtime: Mon Feb 27 2023 22:19:29 GMT+0800 (中国标准时间)@8f367993-c942-4247-ac20-115ccf99a845
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve ../Config/SysDefine from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
-debug: Resolve ./UIMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(preview) ends with cost 93.86166703701019ms.
-debug: Dispatch build request for time accumulated 2 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 2
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:22:43 GMT+0800 (中国标准时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts. Last mtime: Mon Feb 27 2023 22:14:46 GMT+0800 (中国标准时间)@ac2d600d-925e-46a4-a71c-62a09d3af34c, Current mtime: Mon Feb 27 2023 22:26:00 GMT+0800 (中国标准时间)@ac2d600d-925e-46a4-a71c-62a09d3af34c
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts. Last mtime: Mon Feb 27 2023 22:14:37 GMT+0800 (中国标准时间)@2fc472cd-e933-48df-807e-f2a1ac489df6, Current mtime: Mon Feb 27 2023 22:25:14 GMT+0800 (中国标准时间)@2fc472cd-e933-48df-807e-f2a1ac489df6
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(editor) ends with cost 55.33654201030731ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:16:08 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:22:43 GMT+0800 (中国标准时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts. Last mtime: Mon Feb 27 2023 22:14:46 GMT+0800 (中国标准时间)@ac2d600d-925e-46a4-a71c-62a09d3af34c, Current mtime: Mon Feb 27 2023 22:26:00 GMT+0800 (中国标准时间)@ac2d600d-925e-46a4-a71c-62a09d3af34c
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts. Last mtime: Mon Feb 27 2023 22:14:37 GMT+0800 (中国标准时间)@2fc472cd-e933-48df-807e-f2a1ac489df6, Current mtime: Mon Feb 27 2023 22:25:14 GMT+0800 (中国标准时间)@2fc472cd-e933-48df-807e-f2a1ac489df6
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts as cce:/internal/x/cc.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(preview) ends with cost 55.48420798778534ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:22:43 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:48:17 GMT+0800 (中国标准时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts. Last mtime: Mon Feb 27 2023 22:19:29 GMT+0800 (中国标准时间)@8f367993-c942-4247-ac20-115ccf99a845, Current mtime: Mon Feb 27 2023 22:51:20 GMT+0800 (中国标准时间)@8f367993-c942-4247-ac20-115ccf99a845
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve ../Config/SysDefine from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
-debug: Resolve ./UIMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(editor) ends with cost 67.04545897245407ms.
-debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:22:43 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:48:17 GMT+0800 (中国标准时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts. Last mtime: Mon Feb 27 2023 22:19:29 GMT+0800 (中国标准时间)@8f367993-c942-4247-ac20-115ccf99a845, Current mtime: Mon Feb 27 2023 22:51:20 GMT+0800 (中国标准时间)@8f367993-c942-4247-ac20-115ccf99a845
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve ../Config/SysDefine from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
-debug: Resolve ./UIMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(preview) ends with cost 68.83812499046326ms.
-debug: Dispatch build request for time accumulated 1 asset changes.
-debug: Build iteration starts.
-Number of accumulated asset changes: 1
-Feature changed: false
-debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:48:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:50:51 GMT+0800 (中国标准时间)
-debug: Inspect cce:/internal/x/prerequisite-imports
-debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts. Last mtime: Mon Feb 27 2023 13:57:44 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27, Current mtime: Mon Feb 27 2023 22:54:05 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27
+debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts. Last mtime: Mon Feb 27 2023 22:54:05 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27, Current mtime: Tue Feb 28 2023 09:52:33 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27
 debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/x/cc.
@@ -807,12 +495,12 @@ debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(editor) ends with cost 128.76691699028015ms.
+debug: Target(editor) ends with cost 136.10208296775818ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:48:17 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:50:51 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:04 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:30 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts. Last mtime: Mon Feb 27 2023 13:57:44 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27, Current mtime: Mon Feb 27 2023 22:54:05 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27
+debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts. Last mtime: Mon Feb 27 2023 22:54:05 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27, Current mtime: Tue Feb 28 2023 09:52:33 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27
 debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts
 debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/code-quality/cr.mjs.
 debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/x/cc.
@@ -848,20 +536,26 @@ debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(preview) ends with cost 126.30245798826218ms.
+debug: Target(preview) ends with cost 179.44787502288818ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:50:51 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:51:48 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:30 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:51 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts. Last mtime: Thu Feb 23 2023 21:01:36 GMT+0800 (中国标准时间)@96166194-0285-4463-8de1-6001bceeac3e, Current mtime: Mon Feb 27 2023 22:55:04 GMT+0800 (中国标准时间)@96166194-0285-4463-8de1-6001bceeac3e
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts as cce:/internal/x/cc.
-debug: Resolve ../Config/SysDefine from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts. Last mtime: Tue Feb 28 2023 09:52:33 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27, Current mtime: Tue Feb 28 2023 09:52:53 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27
+debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/ResMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
+debug: Resolve ../Config/SysDefine from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
+debug: Resolve ../Utils/PriorityStake from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
+debug: Resolve ./ModalMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts.
+debug: Resolve ./UIFrom from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts.
@@ -887,16 +581,22 @@ debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(editor) ends with cost 57.797333002090454ms.
+debug: Target(editor) ends with cost 89.57479101419449ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:50:51 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:51:48 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:30 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:00:51 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts. Last mtime: Thu Feb 23 2023 21:01:36 GMT+0800 (中国标准时间)@96166194-0285-4463-8de1-6001bceeac3e, Current mtime: Mon Feb 27 2023 22:55:04 GMT+0800 (中国标准时间)@96166194-0285-4463-8de1-6001bceeac3e
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts as cce:/internal/x/cc.
-debug: Resolve ../Config/SysDefine from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts. Last mtime: Tue Feb 28 2023 09:52:33 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27, Current mtime: Tue Feb 28 2023 09:52:53 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27
+debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/ResMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
+debug: Resolve ../Config/SysDefine from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
+debug: Resolve ../Utils/PriorityStake from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
+debug: Resolve ./ModalMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts.
+debug: Resolve ./UIFrom from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts.
@@ -922,24 +622,149 @@ debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(preview) ends with cost 37.77174997329712ms.
+debug: Target(preview) ends with cost 107.252749979496ms.
+debug: Dispatch build request for time accumulated 3 asset changes.
+debug: Build iteration starts.
+Number of accumulated asset changes: 3
+Feature changed: false
+debug: Target(editor) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:51 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:03:55 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts. Last mtime: Tue Feb 28 2023 09:52:53 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27, Current mtime: Tue Feb 28 2023 09:55:03 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27
+debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/ResMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
+debug: Resolve ../Config/SysDefine from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
+debug: Resolve ../Utils/PriorityStake from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
+debug: Resolve ./ModalMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts.
+debug: Resolve ./UIFrom from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts. Last mtime: Mon Feb 27 2023 20:56:38 GMT+0800 (中国标准时间)@0aeaa551-b8a8-454b-9cbd-f1d7ed07aa62, Current mtime: Tue Feb 28 2023 09:55:55 GMT+0800 (中国标准时间)@0aeaa551-b8a8-454b-9cbd-f1d7ed07aa62
+debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/x/cc.
+debug: Resolve ../../Script/Base/EventMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
+debug: Resolve ../../Script/Games/LogicEvent from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
+debug: Resolve ../../Script/UIFrame/UIFrom from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts. Last mtime: Mon Feb 27 2023 21:19:29 GMT+0800 (中国标准时间)@b035ddfa-f5b6-4de6-ae84-c1c44bb58163, Current mtime: Tue Feb 28 2023 09:55:08 GMT+0800 (中国标准时间)@b035ddfa-f5b6-4de6-ae84-c1c44bb58163
+debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as cce:/internal/x/cc.
+debug: Resolve ../../../Script/Base/EventMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
+debug: Resolve ../../../Script/Base/ResMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
+debug: Resolve ../../../Script/Games/LogicEvent from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
+debug: Resolve ../../../Script/UIFrame/UIFrom from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
+debug: Target(editor) ends with cost 154.75770902633667ms.
+debug: Target(preview) build started.
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:00:51 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:03:55 GMT+0800 (中国标准时间)
+debug: Inspect cce:/internal/x/prerequisite-imports
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts. Last mtime: Tue Feb 28 2023 09:52:53 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27, Current mtime: Tue Feb 28 2023 09:55:03 GMT+0800 (中国标准时间)@ce77fe6a-daa8-40a3-bcbc-b91a7278cc27
+debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as cce:/internal/x/cc.
+debug: Resolve ../Base/ResMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
+debug: Resolve ../Config/SysDefine from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
+debug: Resolve ../Utils/PriorityStake from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
+debug: Resolve ./ModalMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts.
+debug: Resolve ./UIFrom from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts. Last mtime: Mon Feb 27 2023 20:56:38 GMT+0800 (中国标准时间)@0aeaa551-b8a8-454b-9cbd-f1d7ed07aa62, Current mtime: Tue Feb 28 2023 09:55:55 GMT+0800 (中国标准时间)@0aeaa551-b8a8-454b-9cbd-f1d7ed07aa62
+debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/x/cc.
+debug: Resolve ../../Script/Base/EventMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
+debug: Resolve ../../Script/Games/LogicEvent from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
+debug: Resolve ../../Script/UIFrame/UIFrom from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Launch/Lauch.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts. Last mtime: Mon Feb 27 2023 21:19:29 GMT+0800 (中国标准时间)@b035ddfa-f5b6-4de6-ae84-c1c44bb58163, Current mtime: Tue Feb 28 2023 09:55:08 GMT+0800 (中国标准时间)@b035ddfa-f5b6-4de6-ae84-c1c44bb58163
+debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as cce:/internal/x/cc.
+debug: Resolve ../../../Script/Base/EventMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
+debug: Resolve ../../../Script/Base/ResMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
+debug: Resolve ../../../Script/Games/LogicEvent from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
+debug: Resolve ../../../Script/UIFrame/UIFrom from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/Script/UI/UILobby.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/UILobbyMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Lobby/reslist.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/LogicManager.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/ResMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/Sigleton.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/BaseLogic.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/ProjectConfig.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/Struct.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIBase.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIRoot.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
+debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
+debug: Target(preview) ends with cost 169.85333400964737ms.
 debug: Dispatch build request for time accumulated 1 asset changes.
 debug: Build iteration starts.
 Number of accumulated asset changes: 1
 Feature changed: false
 debug: Target(editor) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:51:48 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:54:00 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:05:55 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts. Last mtime: Mon Feb 27 2023 22:51:20 GMT+0800 (中国标准时间)@8f367993-c942-4247-ac20-115ccf99a845, Current mtime: Mon Feb 27 2023 22:57:20 GMT+0800 (中国标准时间)@8f367993-c942-4247-ac20-115ccf99a845
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve ../Config/SysDefine from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
-debug: Resolve ./UIMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts. Last mtime: Tue Feb 28 2023 09:55:55 GMT+0800 (中国标准时间)@0aeaa551-b8a8-454b-9cbd-f1d7ed07aa62, Current mtime: Tue Feb 28 2023 09:57:52 GMT+0800 (中国标准时间)@0aeaa551-b8a8-454b-9cbd-f1d7ed07aa62
+debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/x/cc.
+debug: Resolve ../../Script/Base/EventMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
+debug: Resolve ../../Script/Games/LogicEvent from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
+debug: Resolve ../../Script/UIFrame/UIFrom from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts.
@@ -964,20 +789,21 @@ debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(editor) ends with cost 80.26241600513458ms.
+debug: Target(editor) ends with cost 52.19845902919769ms.
 debug: Target(preview) build started.
-debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:51:48 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:54:00 GMT+0800 (中国标准时间)
+debug: Detected change: cce:/internal/x/prerequisite-imports. Last mtime: Thu Jan 01 1970 08:03:55 GMT+0800 (中国标准时间), Current mtime: Thu Jan 01 1970 08:05:55 GMT+0800 (中国标准时间)
 debug: Inspect cce:/internal/x/prerequisite-imports
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/BattleLogic.ts.
-debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts. Last mtime: Mon Feb 27 2023 22:51:20 GMT+0800 (中国标准时间)@8f367993-c942-4247-ac20-115ccf99a845, Current mtime: Mon Feb 27 2023 22:57:20 GMT+0800 (中国标准时间)@8f367993-c942-4247-ac20-115ccf99a845
-debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts
-debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/code-quality/cr.mjs.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as cce:/internal/x/cc.
-debug: Resolve ../Config/SysDefine from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Config/SysDefine.ts.
-debug: Resolve ./UIMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/ModalMgr.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIMgr.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts.
+debug: Detected change: file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts. Last mtime: Tue Feb 28 2023 09:55:55 GMT+0800 (中国标准时间)@0aeaa551-b8a8-454b-9cbd-f1d7ed07aa62, Current mtime: Tue Feb 28 2023 09:57:52 GMT+0800 (中国标准时间)@0aeaa551-b8a8-454b-9cbd-f1d7ed07aa62
+debug: Inspect file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts
+debug: Resolve cce:/internal/code-quality/cr.mjs from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/code-quality/cr.mjs.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/x/cc.
+debug: Resolve cc from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as cce:/internal/x/cc.
+debug: Resolve ../../Script/Base/EventMgr from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Base/EventMgr.ts.
+debug: Resolve ../../Script/Games/LogicEvent from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Games/LogicEvent.ts.
+debug: Resolve ../../Script/UIFrame/UIFrom from file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/UIFrame/UIFrom.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattleLoading.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/UIBattleMgr.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts.
@@ -1002,4 +828,4 @@ debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityQueue.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/PriorityStake.ts.
 debug: Resolve file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts from cce:/internal/x/prerequisite-imports as file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Script/Utils/Utils.ts.
-debug: Target(preview) ends with cost 76.64854198694229ms.
+debug: Target(preview) ends with cost 52.76366698741913ms.
