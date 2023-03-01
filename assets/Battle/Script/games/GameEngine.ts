@@ -117,8 +117,8 @@ export default class GameEngine {
      */
     startGame() {
         this.cards = this.shuffle();
-        // this.currChair = Math.floor(Math.random() * GameEngine.MAX_CHAIR - 1);//随机生成第一个椅子
-        this.currChair = 0
+        this.currChair = Math.floor(Math.random() * GameEngine.MAX_CHAIR);//随机生成第一个椅子  
+        console.log('第一个操作的currChair:', this.currChair)
         this.sendStartGame();
     }
 
@@ -150,6 +150,7 @@ export default class GameEngine {
      */
     private sendOpenResult(chair: number, index: number, card: number) {
         for (let key in this.players) {
+            console.log('给每个注册玩家 发送开牌命令 chair:', chair, ' ,index:', index, ' ,card:', card)
             this.players[key].openResult(new OpenResultDTO(chair, index, card));
         }
     }
@@ -174,6 +175,7 @@ export default class GameEngine {
      */
     private sendOperationNotify() {
         this.currChair = this.nextChair();  // 获取下一个操作的椅子
+        console.log('下一个操作的chair:', this.currChair)
         for (let key in this.players) {
             this.players[key].operationNotify(new OperationNotifyDTO(this.currChair));
         }
@@ -235,7 +237,9 @@ export default class GameEngine {
             if (this.checkWin() != -1) {
                 this.sendEndGame();
             } else {
-                this.sendOperationNotify();
+                setTimeout(() => {
+                    this.sendOperationNotify();
+                }, 1000)
             }
         }
     }

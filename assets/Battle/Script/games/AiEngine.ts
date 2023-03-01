@@ -107,6 +107,7 @@ export default class AiEngine {
     operationNotifyAiLogic = (operationNotifyVO: OperationNotifyVO) => {
         let chair = operationNotifyVO.chair;
         let aiPlayer = this.ais[this.chairIds[chair]];
+        console.log('当前应该操作的chair:', chair)
         if (aiPlayer != null) {  //如果当前操作玩家是机器人
             // 获取自己的花色
             let color = this.chairColors[chair];
@@ -197,9 +198,9 @@ export default class AiEngine {
         let darkCards = this.darkLength();             // 获取未打开的牌下标
         if (darkCards.length > 0) {
             this.runAction(() => {
-                // this._engine.open(new OpenCardDTO(chair, _.shuffle(darkCards)[0])); //随机打开一张牌
-                this._engine.open(new OpenCardDTO(chair, this.shuffle(darkCards)[0]))
-
+                const shuffleIndex = this.darkLength()[0]
+                console.log('机器人打开的index位置:', shuffleIndex)
+                this._engine.open(new OpenCardDTO(chair, shuffleIndex))
             });
         }
     };
@@ -215,11 +216,16 @@ export default class AiEngine {
      */
     darkLength(): number[] {
         let darkCards = [];             // 获取未打开的牌下标
-        this.cards.forEach((v, i) => {
-            if (v == GameEngine.DARK_CARD) {
-                darkCards.push(i);
+        for (const key in this.cards) {
+            if (Object.prototype.hasOwnProperty.call(this.cards, key)) {
+                const element = this.cards[key];
+                if (element == GameEngine.DARK_CARD)
+                    darkCards.push(key);
             }
-        });
+        }
+        darkCards.sort(function () {
+            return Math.random() - 0.5
+        })
         return darkCards;
     }
 

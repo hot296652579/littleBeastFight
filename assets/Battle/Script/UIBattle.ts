@@ -13,7 +13,10 @@ import HumanPlayer from "./games/HumanPlayer";
 import PlayerManager from "./games/PlayerManager";
 import UICard from "./games/UI/UICard";
 import TweenUtil from "./games/utils/TweenUtils";
+import ConfirmColorVO from "./games/vo/ConfirmColorVO";
+import MoveResultVO from "./games/vo/MoveResultVO";
 import OpenResultVO from "./games/vo/OpenResultVO";
+import OperationNotifyVO from "./games/vo/OperationNotifyVO";
 import SitDownVO from "./games/vo/SitDownVO";
 import StartGameVO from "./games/vo/StartGameVO";
 
@@ -58,9 +61,6 @@ export class UIBattle extends UIScreen {
     @property(Node)
     UIGames: Node = null
 
-    @property(Sprite)
-    test: Sprite = null
-
     private _iconMapping: { [key: number]: string; } = {
         0x00: "蓝鼠",
         0x01: "蓝猫",
@@ -99,14 +99,14 @@ export class UIBattle extends UIScreen {
         FireKit.use(Config.HUMAN_FIRE).onGroup(GameEvent.SIT_DOWN, this.sitDownLogic, this);
         FireKit.use(Config.HUMAN_FIRE).onGroup(GameEvent.START_GAME, this.startGameLogic, this);
         FireKit.use(Config.HUMAN_FIRE).onGroup(GameEvent.OPEN_RESULT, this.openResultLogic, this);
-        // FireKit.use(Config.HUMAN_FIRE).onGroup(GameEvent.CONFIRM_COLOR, this.confirmColorLogic, this);
-        // FireKit.use(Config.HUMAN_FIRE).onGroup(GameEvent.OPERATION_NOTIFY, this.operationNotifyLogic, this);
+        FireKit.use(Config.HUMAN_FIRE).onGroup(GameEvent.CONFIRM_COLOR, this.confirmColorLogic, this);
+        FireKit.use(Config.HUMAN_FIRE).onGroup(GameEvent.OPERATION_NOTIFY, this.operationNotifyLogic, this);
         // FireKit.use(Config.HUMAN_FIRE).onGroup(GameEvent.MOVE_RESULT, this.moveResultLogic, this);
         // FireKit.use(Config.HUMAN_FIRE).onGroup(GameEvent.END_GAME, this.endGameLogic, this);
     }
 
     startGameLogic(startGameVo: StartGameVO) {
-        console.log(this.node)
+        console.log('startGameVo.chair:', startGameVo.chair)
         this.cards = startGameVo.cards;
         this._locked = startGameVo.chair != this._meChair;
         for (let index = 0; index < this.btnCards.length; index++) {
@@ -171,7 +171,7 @@ export class UIBattle extends UIScreen {
         this.fromIndex = GameEngine.INVALID_INDEX;
     };
     async updateOpenCard(openResultVO) {
-        console.log('openResultVO', openResultVO)
+        console.log('openResultVO:', openResultVO)
         let card = openResultVO.card;
         let index = openResultVO.index;
         let cardTemp = this.getCardItemTemp(index);
@@ -228,6 +228,40 @@ export class UIBattle extends UIScreen {
         if (sitDownVO.userId == this._meId) {   //如果是自己
             this._meChair = sitDownVO.chair;
         }
+    };
+
+    /**
+     *
+     * @param confirmColorVO
+     */
+    confirmColorLogic = (confirmColorVO: ConfirmColorVO) => {
+        if (confirmColorVO.chair == this._meChair) {
+            this._meColor = confirmColorVO.color;
+            console.log('我方颜色:', this._meColor)
+        }
+    };
+
+    /**
+     *
+     * @param operationNotifyVO
+     */
+    operationNotifyLogic = (operationNotifyVO: OperationNotifyVO) => {
+        this._locked = operationNotifyVO.chair != this._meChair;
+    };
+
+    /**
+ *
+ * @param moveResultVO
+ */
+    moveResultLogic = (moveResultVO: MoveResultVO) => {
+        this.cards[moveResultVO.fromIndex] = moveResultVO.fromCard;
+        this.cards[moveResultVO.toIndex] = moveResultVO.toCard;
+        this.updateStyle(moveResultVO.fromIndex, moveResultVO.fromCard);
+        this.updateStyle(moveResultVO.toIndex, moveResultVO.toCard);
+        if (this.cards[moveResultVO.toIndex] != GameEngine.NONE_CARD) {
+            this.updateAndSelectStyle(moveResultVO.toIndex);
+        }
+        this.fromIndex = GameEngine.INVALID_INDEX;
     };
 
     async onBtnBackLobby() {

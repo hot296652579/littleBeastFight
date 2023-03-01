@@ -535,7 +535,7 @@
       ]
     },
     "cce:/internal/x/prerequisite-imports": {
-      "mTimestamp": 1743110.8716659546,
+      "mTimestamp": 48376595.13795793,
       "chunkId": "5ff1bd475aab5eafda38e698b2ff677d4ff11565",
       "imports": [
         {
@@ -2522,10 +2522,10 @@
     },
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts": {
       "mTimestamp": {
-        "mtime": 1677585560067.6455,
+        "mtime": 1677637776841.454,
         "uuid": "ac2d600d-925e-46a4-a71c-62a09d3af34c"
       },
-      "chunkId": "844e6e329fe30f8bb1b9763dd774c09519c848af",
+      "chunkId": "afa957f3b114944cd4f8fc31805975470a930733",
       "imports": [
         {
           "value": "cc"
@@ -3689,10 +3689,10 @@
     },
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts": {
       "mTimestamp": {
-        "mtime": 1677591726358.133,
+        "mtime": 1677637706029.065,
         "uuid": "0aeaa551-b8a8-454b-9cbd-f1d7ed07aa62"
       },
-      "chunkId": "b89a80caf686cf9e5f733b9bdc3dd22b7074d02d",
+      "chunkId": "a24ff66c0ed64631b602346d72a6d291dcc657f1",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -4663,10 +4663,10 @@
     },
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/games/GameEngine.ts": {
       "mTimestamp": {
-        "mtime": 1677581487442.7676,
+        "mtime": 1677638233231.729,
         "uuid": "bd82eb1c-3e7f-4d0c-ba8a-1a740c35a525"
       },
-      "chunkId": "2f9e55840aa173a167ff61a7e740b3a5cb4b4f64",
+      "chunkId": "bf36f314294b729a3f5fffdbd4b8b941467bfcbc",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -5228,10 +5228,10 @@
     },
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/games/AiEngine.ts": {
       "mTimestamp": {
-        "mtime": 1677566583486.94,
+        "mtime": 1677638358919.0342,
         "uuid": "85164753-4a05-4b8f-a913-c0f7d8e64a69"
       },
-      "chunkId": "c9ae6cd6cd2a6526b607be6e7fc04f7d8e633aa5",
+      "chunkId": "e58cca42b5128c30ddb7b66f83a53b3555b2bc28",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",
@@ -5481,10 +5481,10 @@
     },
     "file:///Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/games/UI/UICard.ts": {
       "mTimestamp": {
-        "mtime": 1677583802884.6055,
+        "mtime": 1677638185366.7249,
         "uuid": "a162c2c9-7963-4f69-b613-b481d568f146"
       },
-      "chunkId": "888c546cab3d1a35711f16eb508a55118ca3406e",
+      "chunkId": "c252cce7b9516820808c990f09173fd4523a20df",
       "imports": [
         {
           "value": "cce:/internal/code-quality/cr.mjs",

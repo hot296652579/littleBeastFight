@@ -2,15 +2,15 @@ import { Component, Sprite, UITransform } from "cc";
 import { ResMgr } from "../../../../Script/Base/ResMgr";
 
 const _iconMapping: { [key: number]: string; } = {
-    0x00: "lion",
-    0x01: "lion",
+    0x00: "bear",
+    0x01: "crocodile",
     0x02: "tiger",
-    0x03: "lion",
-    0x04: "lion",
+    0x03: "elephant",
+    0x04: "gorilla",
     0x05: "lion",
-    0x06: "lion",
+    0x06: "pig",
     0x07: "tiger",
-    0x10: "tiger",
+    0x10: "walrus",
     0x11: "tiger",
     0x12: "lion",
     0x13: "lion",

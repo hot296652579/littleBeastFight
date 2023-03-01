@@ -2255,3 +2255,12 @@ myProp = 0;
     at Director.tick (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:5791:31)
     at Game._updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:6562:22)
     at updateCallback (http://localhost:7456/scripting/engine/bin/.cache/dev/preview/bundled/index.js:56199:23)' : ''
+2023-02-28T14:09:01.571Z - warn: [Scene] Reference "test" of "UIBattle<UIBattle>" to external scene object "test" can not be saved in prefab asset.Error: [Scene] Reference "test" of "UIBattle<UIBattle>" to external scene object "test" can not be saved in prefab asset.
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/prefab.ccc:1:2286
+    at o (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/prefab.ccc:1:714)
+    at visitObjTypeReferences (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/prefab.ccc:1:764)
+    at /Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/prefab.ccc:1:1993
+    at walkNode (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/prefab.ccc:1:366)
+    at Object.checkAndStripNode (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/engine/dist/editor-extends/utils/prefab.ccc:1:1744)
+    at PrefabUtil.getPrefabForSerialize (/Applications/CocosCreator/Creator/3.6.0/CocosCreator.app/Contents/Resources/app.asar/builtin/scene/dist/script/3d/manager/prefab/utils.ccc:1:5177)
+2023-03-01T00:22:20.145Z - error: getImSetting failed
