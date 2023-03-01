@@ -116,7 +116,7 @@ export default class GameEngine {
      * 开始游戏
      */
     startGame() {
-        this.cards = this.shuffle();
+        // this.cards = this.shuffle();
         this.currChair = Math.floor(Math.random() * GameEngine.MAX_CHAIR);//随机生成第一个椅子  
         console.log('第一个操作的currChair:', this.currChair)
         this.sendStartGame();
@@ -150,7 +150,7 @@ export default class GameEngine {
      */
     private sendOpenResult(chair: number, index: number, card: number) {
         for (let key in this.players) {
-            console.log('给每个注册玩家 发送开牌命令 chair:', chair, ' ,index:', index, ' ,card:', card)
+            // console.log('给每个注册玩家 发送开牌命令 chair:', chair, ' ,index:', index, ' ,card:', card)
             this.players[key].openResult(new OpenResultDTO(chair, index, card));
         }
     }

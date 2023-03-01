@@ -1,7 +1,7 @@
 {
   "__type__": "cc.Texture2D",
   "content": {
-    "base": "2,2,0,0,0,0",
+    "base": "2,2,0,0,1,0",
     "mipmaps": [
       "b818c4c6-ab2c-4e41-aac7-5d6257dca407"
     ]

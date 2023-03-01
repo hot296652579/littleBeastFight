@@ -1415,5 +1415,159 @@
   "a162c2c9-7963-4f69-b613-b481d568f146": {
     "url": "db://assets/Battle/Script/games/UI/UICard.ts",
     "value": {}
+  },
+  "bbb215c2-e80b-427d-83b7-9f45f8afc63a": {
+    "url": "db://assets/Battle/Texture/animal/bear_square.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "826e827f-7ac2-41e3-bb4b-07dc7f6fd70d": {
+    "url": "db://assets/Battle/Texture/animal/crocodile_square.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "274c2b44-6eb0-4601-ae23-d7144ca5d081": {
+    "url": "db://assets/Battle/Texture/animal/elephant_square.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "ddf2045f-c6e2-46e8-b006-34072f969d76": {
+    "url": "db://assets/Battle/Texture/animal/gorilla_square.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "d6324597-2dfa-4707-acc8-da5f6b30433d": {
+    "url": "db://assets/Battle/Texture/animal/lion_square.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "274c2b44-6eb0-4601-ae23-d7144ca5d081@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/elephant_square.png@6c48a",
+    "value": {
+      "depends": [
+        "274c2b44-6eb0-4601-ae23-d7144ca5d081"
+      ]
+    }
+  },
+  "346a4bab-c9f9-48ee-aa89-68c3d5abc22a": {
+    "url": "db://assets/Battle/Texture/animal/pig_square.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "826e827f-7ac2-41e3-bb4b-07dc7f6fd70d@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/crocodile_square.png@6c48a",
+    "value": {
+      "depends": [
+        "826e827f-7ac2-41e3-bb4b-07dc7f6fd70d"
+      ]
+    }
+  },
+  "3a8e3800-dacd-44aa-85a2-0f5183d6708a": {
+    "url": "db://assets/Battle/Texture/animal/tiger_square.png",
+    "value": {
+      "depends": []
+    }
+  },
+  "d6324597-2dfa-4707-acc8-da5f6b30433d@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/lion_square.png@6c48a",
+    "value": {
+      "depends": [
+        "d6324597-2dfa-4707-acc8-da5f6b30433d"
+      ]
+    }
+  },
+  "bbb215c2-e80b-427d-83b7-9f45f8afc63a@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/bear_square.png@6c48a",
+    "value": {
+      "depends": [
+        "bbb215c2-e80b-427d-83b7-9f45f8afc63a"
+      ]
+    }
+  },
+  "ddf2045f-c6e2-46e8-b006-34072f969d76@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/gorilla_square.png@6c48a",
+    "value": {
+      "depends": [
+        "ddf2045f-c6e2-46e8-b006-34072f969d76"
+      ]
+    }
+  },
+  "3a8e3800-dacd-44aa-85a2-0f5183d6708a@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/tiger_square.png@6c48a",
+    "value": {
+      "depends": [
+        "3a8e3800-dacd-44aa-85a2-0f5183d6708a"
+      ]
+    }
+  },
+  "346a4bab-c9f9-48ee-aa89-68c3d5abc22a@6c48a": {
+    "url": "db://assets/Battle/Texture/animal/pig_square.png@6c48a",
+    "value": {
+      "depends": [
+        "346a4bab-c9f9-48ee-aa89-68c3d5abc22a"
+      ]
+    }
+  },
+  "bbb215c2-e80b-427d-83b7-9f45f8afc63a@f9941": {
+    "url": "db://assets/Battle/Texture/animal/bear_square.png@f9941",
+    "value": {
+      "depends": [
+        "bbb215c2-e80b-427d-83b7-9f45f8afc63a@6c48a"
+      ]
+    }
+  },
+  "826e827f-7ac2-41e3-bb4b-07dc7f6fd70d@f9941": {
+    "url": "db://assets/Battle/Texture/animal/crocodile_square.png@f9941",
+    "value": {
+      "depends": [
+        "826e827f-7ac2-41e3-bb4b-07dc7f6fd70d@6c48a"
+      ]
+    }
+  },
+  "ddf2045f-c6e2-46e8-b006-34072f969d76@f9941": {
+    "url": "db://assets/Battle/Texture/animal/gorilla_square.png@f9941",
+    "value": {
+      "depends": [
+        "ddf2045f-c6e2-46e8-b006-34072f969d76@6c48a"
+      ]
+    }
+  },
+  "274c2b44-6eb0-4601-ae23-d7144ca5d081@f9941": {
+    "url": "db://assets/Battle/Texture/animal/elephant_square.png@f9941",
+    "value": {
+      "depends": [
+        "274c2b44-6eb0-4601-ae23-d7144ca5d081@6c48a"
+      ]
+    }
+  },
+  "d6324597-2dfa-4707-acc8-da5f6b30433d@f9941": {
+    "url": "db://assets/Battle/Texture/animal/lion_square.png@f9941",
+    "value": {
+      "depends": [
+        "d6324597-2dfa-4707-acc8-da5f6b30433d@6c48a"
+      ]
+    }
+  },
+  "346a4bab-c9f9-48ee-aa89-68c3d5abc22a@f9941": {
+    "url": "db://assets/Battle/Texture/animal/pig_square.png@f9941",
+    "value": {
+      "depends": [
+        "346a4bab-c9f9-48ee-aa89-68c3d5abc22a@6c48a"
+      ]
+    }
+  },
+  "3a8e3800-dacd-44aa-85a2-0f5183d6708a@f9941": {
+    "url": "db://assets/Battle/Texture/animal/tiger_square.png@f9941",
+    "value": {
+      "depends": [
+        "3a8e3800-dacd-44aa-85a2-0f5183d6708a@6c48a"
+      ]
+    }
   }
 }

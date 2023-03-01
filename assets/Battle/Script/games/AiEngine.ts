@@ -162,6 +162,7 @@ export default class AiEngine {
                     }
                 });
             }
+            console.log('机器人操作的actions', actions)
             let action = actions.sort((a, b) => {
                 return a.score - b.score
             })[0]
@@ -199,7 +200,6 @@ export default class AiEngine {
         if (darkCards.length > 0) {
             this.runAction(() => {
                 const shuffleIndex = this.darkLength()[0]
-                console.log('机器人打开的index位置:', shuffleIndex)
                 this._engine.open(new OpenCardDTO(chair, shuffleIndex))
             });
         }
@@ -236,6 +236,7 @@ export default class AiEngine {
      * @param toIndex
      */
     moveAction = (chair, fromIndex, toIndex) => {
+        console.log('机器人移动操作 fromIndex:', fromIndex, ',toIndex:', toIndex)
         this.runAction(() => {
             this._engine.move(new MoveCardDTO(chair, fromIndex, toIndex));  //移动操作
         });

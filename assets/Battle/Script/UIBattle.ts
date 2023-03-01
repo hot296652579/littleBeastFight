@@ -1,4 +1,4 @@
-import { _decorator, Node, Button, Component, TiledUserNodeData, Sprite, SpriteFrame } from "cc";
+import { _decorator, Node, Button, Component, TiledUserNodeData, Sprite, SpriteFrame, Label } from "cc";
 import EventMgr from "../../Script/Base/EventMgr";
 import { ResMgr } from "../../Script/Base/ResMgr";
 import { LogicEvent } from "../../Script/Games/LogicEvent";
@@ -60,6 +60,8 @@ export class UIBattle extends UIScreen {
 
     @property(Node)
     UIGames: Node = null
+    @property(Label)
+    LabelColor: Label = null
 
     private _iconMapping: { [key: number]: string; } = {
         0x00: "蓝鼠",
@@ -101,7 +103,7 @@ export class UIBattle extends UIScreen {
         FireKit.use(Config.HUMAN_FIRE).onGroup(GameEvent.OPEN_RESULT, this.openResultLogic, this);
         FireKit.use(Config.HUMAN_FIRE).onGroup(GameEvent.CONFIRM_COLOR, this.confirmColorLogic, this);
         FireKit.use(Config.HUMAN_FIRE).onGroup(GameEvent.OPERATION_NOTIFY, this.operationNotifyLogic, this);
-        // FireKit.use(Config.HUMAN_FIRE).onGroup(GameEvent.MOVE_RESULT, this.moveResultLogic, this);
+        FireKit.use(Config.HUMAN_FIRE).onGroup(GameEvent.MOVE_RESULT, this.moveResultLogic, this);
         // FireKit.use(Config.HUMAN_FIRE).onGroup(GameEvent.END_GAME, this.endGameLogic, this);
     }
 
@@ -204,18 +206,21 @@ export class UIBattle extends UIScreen {
      */
     private updateAndSelectStyle(index: number) {
         this.clearSelectStyle();            // 先清除选中
-
+        for (let i = 0; i < this.btnCards.length; i++) {
+            const card = this.btnCards[i]
+            if (i == index) {
+                card.getChildByName('ChoosedMask').active = true
+            }
+        }
     }
 
     /**
      * 清除选中状态
      */
     private clearSelectStyle() {
-        for (let i = 0; i < GameEngine.MAX_CARD; i++) {
-            // let gObject = this._view.getChild("card_" + i);
-            // if (gObject != null) {
-            //     gObject.asCom.getChild("active").asImage.visible = false;
-            // }
+        for (let i = 0; i < this.btnCards.length; i++) {
+            const card = this.btnCards[i]
+            card.getChildByName('ChoosedMask').active = false
         }
     }
 
@@ -237,7 +242,8 @@ export class UIBattle extends UIScreen {
     confirmColorLogic = (confirmColorVO: ConfirmColorVO) => {
         if (confirmColorVO.chair == this._meChair) {
             this._meColor = confirmColorVO.color;
-            console.log('我方颜色:', this._meColor)
+            this.LabelColor.string = this._meColor == 0 ? '您是圆的' : '您是方的'
+
         }
     };
 
@@ -250,9 +256,9 @@ export class UIBattle extends UIScreen {
     };
 
     /**
- *
- * @param moveResultVO
- */
+     *
+     * @param moveResultVO
+     */
     moveResultLogic = (moveResultVO: MoveResultVO) => {
         this.cards[moveResultVO.fromIndex] = moveResultVO.fromCard;
         this.cards[moveResultVO.toIndex] = moveResultVO.toCard;

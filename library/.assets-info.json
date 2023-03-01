@@ -351,7 +351,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Prefabs/UIBattle.prefab": {
-    "time": 1677635982733.8655,
+    "time": 1677649704696.3308,
     "uuid": "a618db4b-0de9-461d-a429-fc1fcf9e4736",
     "missing": false
   },
@@ -569,7 +569,7 @@
     "time": 1677488863859.3835
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/reslist.ts": {
-    "time": 1677637776841.454,
+    "time": 1677648333099.3862,
     "uuid": "ac2d600d-925e-46a4-a71c-62a09d3af34c",
     "missing": false
   },
@@ -747,7 +747,7 @@
     "time": 1677501941101.0823
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/UIBattle.ts": {
-    "time": 1677637706029.065,
+    "time": 1677650011276.9656,
     "uuid": "0aeaa551-b8a8-454b-9cbd-f1d7ed07aa62",
     "missing": false
   },
@@ -923,30 +923,30 @@
     "time": 1677560440464.5537
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal": {
-    "time": 1677560865769.0496,
+    "time": 1677648463089.3677,
     "uuid": "3b4a428e-a0e0-4dce-9fbe-07d7478a14b1",
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/bear.png.meta": {
-    "time": 1677560446329.266
+    "time": 1677648505087.4963
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/crocodile.png.meta": {
-    "time": 1677560446329.0325
+    "time": 1677648505088.8596
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/elephant.png.meta": {
-    "time": 1677560867376.3203
+    "time": 1677648505090.2185
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/gorilla.png.meta": {
-    "time": 1677560446331.8572
+    "time": 1677648505091.0544
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/lion.png.meta": {
-    "time": 1677560446344.814
+    "time": 1677648505091.8623
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/pig.png.meta": {
-    "time": 1677560446344.461
+    "time": 1677648505092.6812
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/tiger.jpg.meta": {
-    "time": 1677560446341.6897
+    "time": 1677648505094.0486
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/bear.png": {
     "time": 1514545736000,
@@ -984,7 +984,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/walrus.png.meta": {
-    "time": 1677560824748.0781
+    "time": 1677648505096.4673
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/walrus.png": {
     "time": 1514545736000,
@@ -1184,7 +1184,7 @@
     "time": 1677567414501.5427
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/games/AiEngine.ts": {
-    "time": 1677638358919.0342,
+    "time": 1677650171772.9934,
     "uuid": "85164753-4a05-4b8f-a913-c0f7d8e64a69",
     "missing": false
   },
@@ -1199,7 +1199,7 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/games/GameEngine.ts": {
-    "time": 1677638233231.729,
+    "time": 1677650494442.9937,
     "uuid": "bd82eb1c-3e7f-4d0c-ba8a-1a740c35a525",
     "missing": false
   },
@@ -1251,8 +1251,64 @@
     "missing": false
   },
   "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Script/games/UI/UICard.ts": {
-    "time": 1677638185366.7249,
+    "time": 1677650865768.8125,
     "uuid": "a162c2c9-7963-4f69-b613-b481d568f146",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/bear_square.png.meta": {
+    "time": 1677648505121.3762
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/crocodile_square.png.meta": {
+    "time": 1677648505122.011
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/elephant_square.png.meta": {
+    "time": 1677648505144.8416
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/gorilla_square.png.meta": {
+    "time": 1677648505144.2668
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/lion_square.png.meta": {
+    "time": 1677648505146.7527
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/pig_square.png.meta": {
+    "time": 1677648505166.832
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/tiger_square.png.meta": {
+    "time": 1677648505168.609
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/elephant_square.png": {
+    "time": 1514545778000,
+    "uuid": "274c2b44-6eb0-4601-ae23-d7144ca5d081",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/crocodile_square.png": {
+    "time": 1514545778000,
+    "uuid": "826e827f-7ac2-41e3-bb4b-07dc7f6fd70d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/lion_square.png": {
+    "time": 1514545778000,
+    "uuid": "d6324597-2dfa-4707-acc8-da5f6b30433d",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/bear_square.png": {
+    "time": 1514545780000,
+    "uuid": "bbb215c2-e80b-427d-83b7-9f45f8afc63a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/gorilla_square.png": {
+    "time": 1514545778000,
+    "uuid": "ddf2045f-c6e2-46e8-b006-34072f969d76",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/tiger_square.png": {
+    "time": 1514545780000,
+    "uuid": "3a8e3800-dacd-44aa-85a2-0f5183d6708a",
+    "missing": false
+  },
+  "/Users/super_javan/cocoscreator/littleBeastFight3.6/assets/Battle/Texture/animal/pig_square.png": {
+    "time": 1514545780000,
+    "uuid": "346a4bab-c9f9-48ee-aa89-68c3d5abc22a",
     "missing": false
   }
 }
